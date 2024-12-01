@@ -3,17 +3,14 @@ export type Grade = 'grey' | 'green' | 'blue' | 'purple' | 'yellow';
 export type ModuleOption = {
     type: 'criticalDamage' | 'bossDamage' | 'eliteDamage' | 'normalDamage' | 'weaponDamage' | 'weakPointDamage';
     grade: Grade;
+    value: number;
 };
 
-export type Module = {
+export interface Item {
     name: string;
-    options: ModuleOption[];
-};
-
-export type Item = {
-    name: string;
-    options: ModuleOption[];
-};
+    moduleName: string;
+    moduleOptions: ModuleOption[];
+}
 
 export type Equipment = {
     mainWeapon: Item;

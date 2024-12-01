@@ -141,7 +141,6 @@ export default function Home() {
                             {['mainWeapon', 'subWeapon'].map((slot) => (
                                 <ItemSlot
                                     key={slot}
-                                    slot={slot as keyof Equipment}
                                     label={EQUIPMENT_SLOTS[slot as keyof Equipment]}
                                     item={currentSet.equipment[slot as keyof Equipment]}
                                     onChange={(updatedItem) => {
@@ -161,7 +160,6 @@ export default function Home() {
                             {['helmet', 'mask', 'top', 'gloves', 'bottom', 'shoes'].map((slot) => (
                                 <ItemSlot
                                     key={slot}
-                                    slot={slot as keyof Equipment}
                                     label={EQUIPMENT_SLOTS[slot as keyof Equipment]}
                                     item={currentSet.equipment[slot as keyof Equipment]}
                                     onChange={(updatedItem) => {
@@ -186,13 +184,13 @@ export default function Home() {
  */
 function getInitialEquipment(): Equipment {
     return {
-        mainWeapon: { name: '', options: [] },
-        subWeapon: { name: '', options: [] },
-        helmet: { name: '', options: [] },
-        mask: { name: '', options: [] },
-        top: { name: '', options: [] },
-        gloves: { name: '', options: [] },
-        bottom: { name: '', options: [] },
-        shoes: { name: '', options: [] }
+        mainWeapon: { name: '', moduleName: '', moduleOptions: [] },
+        subWeapon: { name: '', moduleName: '', moduleOptions: [] },
+        helmet: { name: '', moduleName: '', moduleOptions: [] },
+        mask: { name: '', moduleName: '', moduleOptions: [] },
+        top: { name: '', moduleName: '', moduleOptions: [] },
+        gloves: { name: '', moduleName: '', moduleOptions: [] },
+        bottom: { name: '', moduleName: '', moduleOptions: [] },
+        shoes: { name: '', moduleName: '', moduleOptions: [] }
     };
 }

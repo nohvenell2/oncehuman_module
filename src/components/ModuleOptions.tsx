@@ -7,14 +7,24 @@ import styles from './ModuleOptions.module.scss';
 
 interface ModuleOptionsProps {
     options: ModuleOption[];
+    moduleName?: string;
     onChange: (options: ModuleOption[]) => void;
+    onModuleNameChange: (name: string) => void;
 }
 
-export default function ModuleOptions({ options = [], onChange }: ModuleOptionsProps) {
+export default function ModuleOptions({ 
+    options = [], 
+    moduleName = '', 
+    onChange,
+    onModuleNameChange 
+}: ModuleOptionsProps) {
     const [isAdding, setIsAdding] = useState(false);
+    const [isEditingName, setIsEditingName] = useState(false);
+    const [tempModuleName, setTempModuleName] = useState(moduleName);
     const [newOption, setNewOption] = useState<ModuleOption>(() => ({
         type: 'criticalDamage',
-        grade: 'grey'
+        grade: 'grey',
+        value: 0
     }));
 
     const availableOptions = Object.entries(MODULE_OPTIONS)
@@ -48,20 +58,50 @@ export default function ModuleOptions({ options = [], onChange }: ModuleOptionsP
     const confirmOption = () => {
         onChange([...options, newOption]);
         setIsAdding(false);
-        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey' });
+        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey', value: 0 });
     };
 
     const cancelOption = () => {
         setIsAdding(false);
-        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey' });
+        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey', value: 0 });
     };
 
     const removeOption = (index: number) => {
         onChange(options.filter((_, i) => i !== index));
     };
 
+    const handleModuleNameSubmit = () => {
+        onModuleNameChange(tempModuleName);
+        setIsEditingName(false);
+    };
+
     return (
         <div className={styles.moduleOptions}>
+            <div className={styles.moduleNameSection}>
+                {!isEditingName && moduleName ? (
+                    <div className={styles.moduleNameDisplay}>
+                        <span>{moduleName}</span>
+                        <button 
+                            onClick={() => setIsEditingName(true)}
+                            className={styles.editButton}
+                            aria-label="모듈 이름 수정"
+                        >
+                            ✎
+                        </button>
+                    </div>
+                ) : (
+                    <input
+                        type="text"
+                        value={tempModuleName}
+                        onChange={(e) => setTempModuleName(e.target.value)}
+                        onBlur={handleModuleNameSubmit}
+                        onKeyPress={(e) => e.key === 'Enter' && handleModuleNameSubmit()}
+                        placeholder="모듈 이름"
+                        className={styles.input}
+                        autoFocus={isEditingName}
+                    />
+                )}
+            </div>
             <div className={styles.optionsList}>
                 {options.map((option, index) => (
                     <div key={`${option.type}-${option.grade}-${index}`} 
