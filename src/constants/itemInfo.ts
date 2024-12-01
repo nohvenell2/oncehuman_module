@@ -144,4 +144,4 @@ export const getArmorsBySet = (setName: string): ArmorInfo[] => {
 export default {
     weaponData,
     armorData
-};
+}; 
