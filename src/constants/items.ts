@@ -11,12 +11,12 @@ export const EQUIPMENT_SLOTS = {
 
 export const MODULE_OPTIONS = {
     criticalDamage: '치명타 피해',
-    bossDamage: '보스 피해',
-    eliteDamage: '정예 피해',
-    normalDamage: '일반 피해',
-    weaponDamage: '무기 피해',
     weakPointDamage: '약점 피해',
     elementalDamage: '원소 피해',
+    weaponDamage: '총기 피해',
+    bossDamage: '상위자 피해',
+    eliteDamage: '정예 피해',
+    normalDamage: '일반 피해',
     extraMagazine: '추가 탄창',
     transDamage: '트랜스 피해'
 } as const;
