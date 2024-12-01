@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { Item, ModuleOption } from '@/types/item';
 import styles from './ItemSlot.module.scss';
 import ModuleOptions from './ModuleOptions';
@@ -14,10 +14,9 @@ interface ItemSlotProps {
 }
 
 export default function ItemSlot({ label, item, onChange }: ItemSlotProps) {
-    const [isEditing, setIsEditing] = useState(false);
     const [searchTerm, setSearchTerm] = useState(item.name);
     const [isComboboxOpen, setIsComboboxOpen] = useState(false);
-    const [blurTimeoutId, setBlurTimeoutId] = useState<NodeJS.Timeout | null>(null);
+    const dropdownRef = useRef<HTMLDivElement>(null);
 
     // 슬롯 타입에 따른 아이템 목록 가져오기
     const itemList = useMemo(() => {
@@ -73,65 +72,64 @@ export default function ItemSlot({ label, item, onChange }: ItemSlotProps) {
         }
     };
 
-    // cleanup effect 추가
-    useEffect(() => {
-        return () => {
-            if (blurTimeoutId) {
-                clearTimeout(blurTimeoutId);
+    const handleBlur = (e: React.FocusEvent) => {
+        requestAnimationFrame(() => {
+            if (!dropdownRef.current?.contains(e.relatedTarget as Node)) {
+                setIsComboboxOpen(false);
             }
-        };
-    }, [blurTimeoutId]);
+        });
+    };
 
     return (
         <div className={styles.itemSlot}>
-            <div className={styles.header}>
-                <h3>{label}</h3>
-                <div className={styles.comboboxContainer}>
-                    <input
-                        type="text"
-                        value={searchTerm}
-                        onChange={(e) => {
-                            setSearchTerm(e.target.value);
-                            setIsComboboxOpen(true);
-                        }}
-                        onKeyDown={handleKeyDown}
-                        onFocus={() => setIsComboboxOpen(true)}
-                        onBlur={() => {
-                            const timeoutId = setTimeout(() => setIsComboboxOpen(false), 200);
-                            setBlurTimeoutId(timeoutId);
-                        }}
-                        placeholder="아이템 이름 검색..."
-                        className={styles.comboboxInput}
-                    />
-                    {isComboboxOpen && filteredItems.length > 0 && (
-                        <ul className={styles.optionsList}>
-                            {filteredItems.map((item) => (
-                                <li
-                                    key={typeof item === 'string' ? item : item.name}
-                                    onClick={() => handleItemSelect(item)}
-                                    className={styles.optionItem}
-                                >
-                                    {typeof item === 'string' ? (
-                                        item
-                                    ) : (
-                                        <div className={styles.weaponItem}>
-                                            <span className={styles.weaponName}>{item.name}</span>
-                                            <span className={styles.weaponCategory}>[{item.category}]</span>
-                                        </div>
-                                    )}
-                                </li>
-                            ))}
-                        </ul>
-                    )}
+            <div ref={dropdownRef}>
+                <div className={styles.header}>
+                    <h3>{label}</h3>
+                    <div className={styles.comboboxContainer}>
+                        <input
+                            type="text"
+                            value={searchTerm}
+                            onChange={(e) => {
+                                setSearchTerm(e.target.value);
+                                setIsComboboxOpen(true);
+                            }}
+                            onKeyDown={handleKeyDown}
+                            onFocus={() => setIsComboboxOpen(true)}
+                            onBlur={handleBlur}
+                            placeholder="아이템 이름 검색..."
+                            className={styles.comboboxInput}
+                        />
+                        {isComboboxOpen && filteredItems.length > 0 && (
+                            <ul className={styles.optionsList}>
+                                {filteredItems.map((item) => (
+                                    <li
+                                        key={typeof item === 'string' ? item : item.name}
+                                        onClick={() => handleItemSelect(item)}
+                                        className={styles.optionItem}
+                                        tabIndex={0}
+                                    >
+                                        {typeof item === 'string' ? (
+                                            item
+                                        ) : (
+                                            <div className={styles.weaponItem}>
+                                                <span className={styles.weaponName}>{item.name}</span>
+                                                <span className={styles.weaponCategory}>[{item.category}]</span>
+                                            </div>
+                                        )}
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
+                    </div>
                 </div>
+                <ModuleOptions
+                    options={item.moduleOptions}
+                    moduleName={item.moduleName}
+                    onChange={(newOptions) => handleChange('moduleOptions', newOptions)}
+                    onModuleNameChange={(newName) => handleChange('moduleName', newName)}
+                    type={item.type}
+                />
             </div>
-            <ModuleOptions
-                options={item.moduleOptions}
-                moduleName={item.moduleName}
-                onChange={(newOptions) => handleChange('moduleOptions', newOptions)}
-                onModuleNameChange={(newName) => handleChange('moduleName', newName)}
-                type={item.type}
-            />
         </div>
     );
 }

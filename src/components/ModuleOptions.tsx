@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import { ModuleOption } from '@/types/item';
 import moduleNames from '@/data/moduleNames.json';
 import styles from './ModuleOptions.module.scss';
@@ -30,7 +30,8 @@ export default function ModuleOptions({
         grade: 'grey',
         value: MODULE_VALUES.criticalDamage.grey
     });
-    const [blurTimeoutId, setBlurTimeoutId] = useState<NodeJS.Timeout | null>(null);
+    const dropdownRef = useRef<HTMLDivElement>(null);
+
     // 해당 type의 모듈 목록 가져오기
     const availableModules = moduleNames[type] || [];
     const filteredModules = availableModules.filter(module => 
@@ -42,6 +43,14 @@ export default function ModuleOptions({
         setIsComboboxOpen(false);
         setSearchTerm(selectedModule.name);
         setIsEditingName(false);
+    };
+
+    const handleBlur = (e: React.FocusEvent) => {
+        requestAnimationFrame(() => {
+            if (!dropdownRef.current?.contains(e.relatedTarget as Node)) {
+                setIsComboboxOpen(false);
+            }
+        });
     };
 
     const addOption = () => setIsAdding(true);
@@ -83,14 +92,6 @@ export default function ModuleOptions({
         value
     }));
 
-    useEffect(() => {
-        return () => {
-            if (blurTimeoutId) {
-                clearTimeout(blurTimeoutId);
-            }
-        };
-    }, [blurTimeoutId]);
-
     return (
         <div className={styles.moduleOptions}>
             <div className={styles.moduleNameSection}>
@@ -106,7 +107,7 @@ export default function ModuleOptions({
                         </button>
                     </div>
                 ) : (
-                    <div className={styles.comboboxContainer}>
+                    <div className={styles.comboboxContainer} ref={dropdownRef}>
                         <input
                             type="text"
                             value={searchTerm}
@@ -122,10 +123,7 @@ export default function ModuleOptions({
                                 }
                             }}
                             onFocus={() => setIsComboboxOpen(true)}
-                            onBlur={() => {
-                                const timeoutId = setTimeout(() => setIsComboboxOpen(false), 200);
-                                setBlurTimeoutId(timeoutId);
-                            }}
+                            onBlur={handleBlur}
                             placeholder="모듈 이름 검색..."
                             className={styles.comboboxInput}
                             autoFocus={isEditingName}
@@ -137,6 +135,7 @@ export default function ModuleOptions({
                                         key={module.name}
                                         onClick={() => handleModuleSelect(module)}
                                         className={styles.comboboxItem}
+                                        tabIndex={0}
                                     >
                                         <div className={styles.moduleItem}>
                                             <span className={styles.moduleName}>{module.name}</span>
