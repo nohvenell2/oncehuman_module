@@ -2,16 +2,20 @@
 
 import { useState, useRef } from 'react';
 import { ModuleOption } from '@/types/item';
-import moduleNames from '@/data/moduleNames.json';
 import styles from './ModuleOptions.module.scss';
-import { GRADES, MODULE_OPTIONS, MODULE_VALUES } from '@/constants/items';
+import { MODULE_OPTIONS, MODULE_VALUES, GRADES } from '@/constants/items';
+import { 
+    ModuleInfo, 
+    ModuleEquipType,
+    getModulesByEquipType 
+} from '@/constants/moduleInfo';
 
 interface ModuleOptionsProps {
     options: ModuleOption[];
     moduleName?: string;
     onChange: (options: ModuleOption[]) => void;
     onModuleNameChange: (name: string) => void;
-    type: '무기' | '헬멧' | '마스크' | '상의' | '장갑' | '하의' | '신발';
+    type: '무기' | '헬멧' | '마스크' | '상의' | '장갑' | '하의' | '신발' | '방어구 범용';
 }
 
 export default function ModuleOptions({ 
@@ -33,15 +37,16 @@ export default function ModuleOptions({
     const dropdownRef = useRef<HTMLDivElement>(null);
 
     // 해당 type의 모듈 목록 가져오기
-    const availableModules = moduleNames[type] || [];
+    const moduleEquipType = type === '무기' ? '무기' : type === '방어구 범용' ? '방어구 범용' : type as ModuleEquipType;
+    const availableModules = getModulesByEquipType(moduleEquipType);
     const filteredModules = availableModules.filter(module => 
-        module.name.toLowerCase().includes(searchTerm.toLowerCase())
+        module.name.ko.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-    const handleModuleSelect = (selectedModule: typeof availableModules[0]) => {
-        onModuleNameChange(selectedModule.name);
+    const handleModuleSelect = (selectedModule: ModuleInfo) => {
+        onModuleNameChange(selectedModule.name.ko);
         setIsComboboxOpen(false);
-        setSearchTerm(selectedModule.name);
+        setSearchTerm(selectedModule.name.ko);
         setIsEditingName(false);
     };
 
@@ -132,14 +137,16 @@ export default function ModuleOptions({
                             <ul className={styles.comboboxDropdown}>
                                 {filteredModules.map((module) => (
                                     <li
-                                        key={module.name}
+                                        key={module.name.ko}
                                         onClick={() => handleModuleSelect(module)}
                                         className={styles.comboboxItem}
                                         tabIndex={0}
                                     >
                                         <div className={styles.moduleItem}>
-                                            <span className={styles.moduleName}>{module.name}</span>
-                                            <span className={styles.moduleFeatures}>{`[${module.features}]`}</span>
+                                            <span className={styles.moduleName}>{module.name.ko}</span>
+                                            <span className={styles.moduleFeatures}>
+                                                {module.features ? `[${module.features.join(', ')}]` : ''}
+                                            </span>
                                         </div>
                                     </li>
                                 ))}

@@ -7,9 +7,7 @@ import ModuleOptions from './ModuleOptions';
 import { 
     WeaponInfo, 
     ArmorInfo, 
-    getWeaponsByCategory, 
     getArmorsByCategory,
-    WeaponCategory,
     ArmorCategory,
     weaponData
 } from '@/constants/itemInfo';
