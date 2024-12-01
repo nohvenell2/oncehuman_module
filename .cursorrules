@@ -1,0 +1,11 @@
+Answer question in Korean only.
+Functions always have jsdoc.
+
+// 다크모드 스타일 규칙
+Use dark mode styles with:
+- Dark backgrounds (#121212, #1e1e1e)
+- Light text colors (#ffffff, #e0e0e0)
+- Accent colors should have good contrast (min 4.5:1 ratio)
+- Avoid pure black backgrounds
+- Use subtle shadows for depth
+- Consider reducing brightness and saturation of colors

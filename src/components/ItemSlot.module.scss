@@ -1,0 +1,90 @@
+.itemSlot {
+    background-color: #252525;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+
+    &:hover {
+        border-color: #8e8e8e;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        h3 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            min-width: 80px;
+        }
+
+        input {
+            flex: 1;
+            padding: 0.75rem;
+            background-color: #2a2a2a;
+            border: 1px solid #333;
+            color: #e0e0e0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+
+            &::placeholder {
+                color: #666;
+            }
+
+            &:focus {
+                outline: none;
+                border-color: #4a4a4a;
+                box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+            }
+        }
+    }
+}
+
+.nameDisplay {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    span {
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-weight: 600;
+        min-width: 80px;
+    }
+
+    .editButton {
+        background: none;
+        border: none;
+        color: #666;
+        cursor: pointer;
+        padding: 4px 8px;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+
+        &:hover {
+            color: #64b5f6;
+            background-color: rgba(100, 181, 246, 0.1);
+        }
+    }
+}
+
+.nameEditForm {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    .input {
+        flex: 1;
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+        padding: 0.5rem;
+        border: 1px solid #404040;
+        border-radius: 4px;
+    }
+} 
