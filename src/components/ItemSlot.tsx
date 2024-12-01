@@ -29,14 +29,6 @@ export default function ItemSlot({ slot, label, item, onChange }: ItemSlotProps)
         setIsEditing(false);
     };
 
-    const selectedOptions = item.options || [];
-    const availableOptions = Object.entries(MODULE_OPTIONS)
-        .filter(([key]) => !selectedOptions.some(option => option.type === key))
-        .map(([key, value]) => ({
-            key: key as keyof typeof MODULE_OPTIONS,
-            value
-        }));
-
     return (
         <div className={styles.itemSlot}>
             <div className={styles.header}>
