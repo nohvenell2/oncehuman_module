@@ -48,12 +48,12 @@ export default function ModuleOptions({ options = [], onChange }: ModuleOptionsP
     const confirmOption = () => {
         onChange([...options, newOption]);
         setIsAdding(false);
-        setNewOption({ type: 'criticalDamage', grade: 'grey' });
+        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey' });
     };
 
     const cancelOption = () => {
         setIsAdding(false);
-        setNewOption({ type: 'criticalDamage', grade: 'grey' });
+        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey' });
     };
 
     const removeOption = (index: number) => {
@@ -83,7 +83,7 @@ export default function ModuleOptions({ options = [], onChange }: ModuleOptionsP
                 ))}
             </div>
             
-            {isAdding && (
+            {isAdding ? (
                 <div className={`${styles.newOptionForm} ${styles[newOption.grade]}`}>
                     <span className={`${styles.gradeIcon} ${styles[newOption.grade]}`}>
                         ◆
@@ -132,11 +132,12 @@ export default function ModuleOptions({ options = [], onChange }: ModuleOptionsP
                         </button>
                     </div>
                 </div>
-            )}
-            {options.length < 4 && availableOptions.length > 0 && (
-                <button onClick={addOption} className={styles.addButton}>
-                    +
-                </button>
+            ) : (
+                options.length < 4 && availableOptions.length > 0 && (
+                    <button onClick={addOption} className={styles.addButton}>
+                        +
+                    </button>
+                )
             )}
         </div>
     );
