@@ -477,7 +477,7 @@
     {
         "image": "dust-mask.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "더스트 스톰 마스크"
         },
         "en": {
@@ -503,7 +503,7 @@
     {
         "image": "renegade-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "디펙터 세트"
         },
         "en": {
@@ -527,7 +527,7 @@
     {
         "image": "raid-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "레이드 마스크"
         },
         "en": {
@@ -551,7 +551,7 @@
     {
         "image": "bastille-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "바스티유 세트"
         },
         "en": {
@@ -575,7 +575,7 @@
     {
         "image": "blast-suit.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "블래스트 마스크"
         },
         "en": {
@@ -600,7 +600,7 @@
     {
         "image": "savior-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "세이버 세트"
         },
         "en": {
@@ -624,7 +624,7 @@
     {
         "image": "shelterer-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "수호자 세트"
         },
         "en": {
@@ -648,7 +648,7 @@
     {
         "image": "scout-mask.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "스카우트 마스크"
         },
         "en": {
@@ -673,7 +673,7 @@
     {
         "image": "agent-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "에이전트 마스크"
         },
         "en": {
@@ -698,7 +698,7 @@
     {
         "image": "oasis-mask.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "오아시스 마스크"
         },
         "en": {
@@ -725,7 +725,7 @@
     {
         "image": "lonewolf-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "울프 마스크"
         },
         "en": {
@@ -749,7 +749,7 @@
     {
         "image": "precise-shot-mask.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "정밀 사격 마스크"
         },
         "en": {
@@ -776,7 +776,7 @@
     {
         "image": "falcon-mask.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "팔콘 마스크"
         },
         "en": {
@@ -801,7 +801,7 @@
     {
         "image": "test-subject-mask.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "피실험자 마스크"
         },
         "en": {
@@ -825,7 +825,7 @@
     {
         "image": "stormweaver-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "허리케인 세트"
         },
         "en": {
@@ -849,7 +849,7 @@
     {
         "image": "heavy-duty-clothing-set.jpg",
         "ko": {
-            "category": "얼굴",
+            "category": "마스크",
             "name": "헤비 듀티 세트"
         },
         "en": {
