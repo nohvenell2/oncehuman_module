@@ -1,0 +1,4018 @@
+[
+    {
+        "name": {
+            "ko": "버닝 파이어",
+            "en": "Burning Wrath"
+        },
+        "equip_type": "무기",
+        "features": [
+            "플레임"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "플레임 발동 시, 25%확률로 1스택 추가 중첩",
+            "en": "Grants a 25% chance to inflict an additional stack of Burn when triggering Burn."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "레저넌스 파이어",
+            "en": "Flame Resonance"
+        },
+        "equip_type": "무기",
+        "features": [
+            "플레임"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "플레임 최대 스택+2, 플레임 지속 시간-20.0%",
+            "en": "Max Burn stack +2, Burn duration -20.0%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "화염 수호",
+            "en": "Blaze Blessing"
+        },
+        "equip_type": "무기",
+        "features": [
+            "플레임"
+        ],
+        "keywords": [
+            "HP 회복"
+        ],
+        "core_effect": {
+            "ko": "플레임 상태의 적 처치 시 HP 5% 회복",
+            "en": "When defeating an enemy affected by Burn, recover 5% HP."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "잿더미",
+            "en": "Embers"
+        },
+        "equip_type": "무기",
+        "features": [
+            "플레임"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "플레임 제거 시 50%스택 감소",
+            "en": "When Burn is removed, stacks only -50%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "얼음 수호",
+            "en": "Frosty Blessing"
+        },
+        "equip_type": "무기",
+        "features": [
+            "서리의 선풍"
+        ],
+        "keywords": [
+            "HP 회복"
+        ],
+        "core_effect": {
+            "ko": "프로스트 윈드가 사라지면 자신의 HP 10% 회복",
+            "en": "When Frost Vortex disappears, restore 10% of HP."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "다중 함정",
+            "en": "Vortex Multiplier"
+        },
+        "equip_type": "무기",
+        "features": [
+            "서리의 선풍"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "서리의 선풍 최대 존재 수량+1, 서리의 선풍 대미지+10%",
+            "en": "Max number of Frost Vortexes +1, Frost Vortex DMG +10%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "쇄빙",
+            "en": "Shattering Ice"
+        },
+        "equip_type": "무기",
+        "features": [
+            "서리의 선풍"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "서리의 윈드 중심의 적 처치 시 주변 1m의 유닛에게 50% 초감각 강도의 얼음 속성 대미지 1회 부여",
+            "en": "When an enemy at the center of the Frost Vortex is defeated, deal 50% Psi Intensity Ice DMG to enemies within 1m 1 time."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "급속 빙결",
+            "en": "Cryo Blast"
+        },
+        "equip_type": "무기",
+        "features": [
+            "서리의 선풍"
+        ],
+        "keywords": [
+            "동상",
+            "취약"
+        ],
+        "core_effect": {
+            "ko": "서리의 선풍 상태에 동상 부여, 동상 기간 동안 취약+4%, 이동 속도-10%",
+            "en": "Frost Vortex applies Frostbite. When Frostbite is active, Vulnerability +4% and Movement Speed -10%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "탐욕의 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "파워 서지 증폭",
+            "en": "Surge Amplifier"
+        },
+        "equip_type": "무기",
+        "features": [
+            "파워 서지"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "매번 파워 서지 대미지를 가할 때마다 파워 서지 대미지+5%, 3초간 지속, 4스택 중첩 가능",
+            "en": "Dealing Power Surge DMG grants Power Surge DMG +5% for 3s, up to 4 stack(s)."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "순간 상태 과부하",
+            "en": "Static Shock"
+        },
+        "equip_type": "무기",
+        "features": [
+            "파워 서지"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "파워 서지 트랜스 시간 -50%, 파워 서지 대미지+20%",
+            "en": "Power Surge Status duration -50%<br>Power Surge DMG +20%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "파워 서지 확산",
+            "en": "Shock Diffusion"
+        },
+        "equip_type": "무기",
+        "features": [
+            "파워 서지"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "파워 서지 발동 시 대상에게 5m 범위 내의 1개 유닛에게 파워 서지 트랜스 부여 (트랜스가 없는 유닛 우선 선택)",
+            "en": "When triggering Power Surge, apply the Power Surge status to 1 enemies within 5m of the target (prioritizes enemies that are not affected by Power Surge Status)."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "고빈도 파워 서지",
+            "en": "Shock Rampage"
+        },
+        "equip_type": "무기",
+        "features": [
+            "파워 서지"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "파워 서지 대미지를 입힐 때마다 파워 서지 발동 계수+5%(무기 발동 확률 기준), 5초간 지속, 최대 4스택 중첩",
+            "en": "Dealing Power Surge DMG grants +5% Power Surge Trigger Chance (based on weapon's Trigger Chance) for 5s. Effect can stack up to 4 times."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "강력 폭탄",
+            "en": "Heavy Explosives"
+        },
+        "equip_type": "무기",
+        "features": [
+            "불안정한 다이너마이트"
+        ],
+        "keywords": [
+            "경직"
+        ],
+        "core_effect": {
+            "ko": "불안정 다이너마이트가 타깃을 경직시킴",
+            "en": "Unstable Bomber inflicts Heavy Attack."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "폭탄 전리품",
+            "en": "Bombardier Souvenir"
+        },
+        "equip_type": "무기",
+        "features": [
+            "불안정한 다이너마이트"
+        ],
+        "keywords": [
+            "자동 장전"
+        ],
+        "core_effect": {
+            "ko": "불안정 다이너마이트 발동 후, 탄창 10% 자동 장전",
+            "en": "When triggering Unstable Bomber, automatically refill 10% of your magazine."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "블래스트 아트",
+            "en": "Reckless Bomber"
+        },
+        "equip_type": "무기",
+        "features": [
+            "불안정한 다이너마이트"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "1% 크리티컬 확률마다, 불안정 다이너마이트 대미지+0.5%",
+            "en": "For every 1% Crit Rate, Unstable Bomber DMG +0.5%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "폭탄 차징",
+            "en": "Super Charged"
+        },
+        "equip_type": "무기",
+        "features": [
+            "불안정한 다이너마이트"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "불안정 다이너마이트 발동 후, 불안정 다이너마이트 대미지+5%, 6스택 중첩 가능, 3초간 지속",
+            "en": "Triggering Unstable Bomber grants Unstable Bomber DMG +4% for 3s. Effect can stack up to 6 times."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "가이아 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "방패 관통 탄두",
+            "en": "Shield Breaker"
+        },
+        "equip_type": "무기",
+        "features": [
+            "유산탄"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "쉴드 부위 명중 후 유산탄 대미지+60%, 1초간 지속",
+            "en": "When hitting a shielded enemy, Shrapnel DMG +60% for 1s"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "유산탄 전리품",
+            "en": "Shrapnel Souvenir"
+        },
+        "equip_type": "무기",
+        "features": [
+            "유산탄"
+        ],
+        "keywords": [
+            "자동 장전"
+        ],
+        "core_effect": {
+            "ko": "유산탄이 약점 명중 시 1발 총알 자동 장전",
+            "en": "When Shrapnel hits a Weakspot, automatically refills 1 bullet from inventory."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "완전 격파",
+            "en": "Shatter Them All"
+        },
+        "equip_type": "무기",
+        "features": [
+            "유산탄"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "유산탄 명중 부위가 많을 수록 유산탄 대미지 증가, 매 부위+15%",
+            "en": "The more parts the Shrapnel hits, the higher the Shrapnel DMG. Each part +15%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "탄두 폭발",
+            "en": "Shrapnel Smash"
+        },
+        "equip_type": "무기",
+        "features": [
+            "유산탄"
+        ],
+        "keywords": [
+            "크리티컬 확률"
+        ],
+        "core_effect": {
+            "ko": "유산탄 발동 후, 유산탄 크리티컬 확률+1%, 2초간 지속, 최대 20스택",
+            "en": "Triggering Shrapnel grants +1.0% Shrapnel Crit Rate for 2 seconds, up to 20 stacks"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "웨스턴 카우보이",
+            "en": "Cowboy"
+        },
+        "equip_type": "무기",
+        "features": [
+            "패스트 거너"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "빈 탄창 장전 후, 패스트 거너 발동 계수+100%(무기 발동 확률 기반), 5초간 지속, 패스트 거너 최대 스택 달성 후 5초 연장",
+            "en": "After reloading when the magazine is empty, Fast Gunner trigger chance +100%(based on the weapon's Trigger Chance) for 5s. When Fast Gunner reaches max stacks, the duration is increased by 5s."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "멀티 패스트 건",
+            "en": "Shoot Out"
+        },
+        "equip_type": "무기",
+        "features": [
+            "패스트 거너"
+        ],
+        "keywords": [
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "패스트 거너 발동 시, 총기 대미지+1.5%, 10초 간 지속되며 최대 20스택 중첩 가능",
+            "en": "When triggering Fast Gunner, Weapon DMG +1.5% for 10s, up to 20 stack(s)."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "지속 속사",
+            "en": "Shooting Blitz"
+        },
+        "equip_type": "무기",
+        "features": [
+            "패스트 거너"
+        ],
+        "keywords": [
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "패스트 거너 지속 시간+4초, 패스트 거너 상태에서 총기 대미지+15%",
+            "en": "Fast Gunner duration +4s. When Fast Gunner is active, Weapon DMG +15%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "정밀 사격수",
+            "en": "Precision Rush"
+        },
+        "equip_type": "무기",
+        "features": [
+            "패스트 거너"
+        ],
+        "keywords": [
+            "약점 대미지"
+        ],
+        "core_effect": {
+            "ko": "패스트 거너 상태에서 지속 사격 3초 간 약점 대미지 점차 증가, 최대+45%",
+            "en": "When Fast Gunner is active, increase Weakspot DMG while continuously shooting for 3s, up to 45%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "회복 표시",
+            "en": "Recover Mark"
+        },
+        "equip_type": "무기",
+        "features": [
+            "헌터 마크"
+        ],
+        "keywords": [
+            "HP 회복",
+            "스태미나 회복"
+        ],
+        "core_effect": {
+            "ko": "표식 상태인 타깃 처치 시 HP 15% 및 스태미나 25% 회복",
+            "en": "When defeating marked enemies, recover 15% HP and 25% Stamina."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "헌터 수호",
+            "en": "Hunters Perk"
+        },
+        "equip_type": "무기",
+        "features": [
+            "헌터 마크"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "표식 상태인 적, 메타 대미지 보너스-20%",
+            "en": "Marked enemies DMG vs. Metas -20%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "인장 증폭",
+            "en": "Vulnerability Amplifier"
+        },
+        "equip_type": "무기",
+        "features": [
+            "헌터 마크"
+        ],
+        "keywords": [
+            "취약"
+        ],
+        "core_effect": {
+            "ko": "헌터 마크의 취약 효과+8%",
+            "en": "The Bull's Eye adds Vulnerability +8%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "확산 표시",
+            "en": "Spreading Marks"
+        },
+        "equip_type": "무기",
+        "features": [
+            "헌터 마크"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "표식 상태의 적이 처치되면, 헌터 마크가 근처 15m의 유닛 1명에게 확산",
+            "en": "When a marked enemy is defeated, The Bull's Eye will spread to 1 enemies within 15m."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "단결",
+            "en": "United We Stand"
+        },
+        "equip_type": "무기",
+        "features": [
+            "리버스 워페어"
+        ],
+        "keywords": [
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "리버스 워페어 내 플레이어 수가 많을수록 총기 대미지 보너스 증가, 최대 40%",
+            "en": "The more players inside the Fortress Warfare, the greater the Weapon DMG bonus, up to 40%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "최종 거점",
+            "en": "Final Territory"
+        },
+        "equip_type": "무기",
+        "features": [
+            "리버스 워페어"
+        ],
+        "keywords": [
+            "총기 대미지",
+            "이동 속도"
+        ],
+        "core_effect": {
+            "ko": "리버스 워페어가 사라지면 총기 대미지+10%, 이동 속도+10%, 10초간 지속",
+            "en": "When Fortress Warfare ends, Weapon DMG +10%, Movement Speed +10% for 10s"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "장기 거점",
+            "en": "Durable Territory"
+        },
+        "equip_type": "무기",
+        "features": [
+            "리버스 워페어"
+        ],
+        "keywords": [
+            "중무장"
+        ],
+        "core_effect": {
+            "ko": "중장비 상태에서 적 처치 후 진지 5초 연장(각 진지당 5회)",
+            "en": "Every enemy defeated while in Fortress Warfare state will extend the effect by 5s (up to 5 times for every Fortress Warfare)"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "휴대용 거점",
+            "en": "Portable Territory"
+        },
+        "equip_type": "무기",
+        "features": [
+            "리버스 워페어"
+        ],
+        "keywords": [
+            "약점 가중치"
+        ],
+        "core_effect": {
+            "ko": "리버스 워페어를 벗어나도 중장비 상태 2초간 유지",
+            "en": "After leaving Fortress Warfare, the status will remain for 2s."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀"
+                ]
+            },
+            {
+                "method": "신기루 모노리스",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "지정 바운스",
+            "en": "Targeted Bounce"
+        },
+        "equip_type": "무기",
+        "features": [
+            "바운스"
+        ],
+        "keywords": [
+            "약점 가중치"
+        ],
+        "core_effect": {
+            "ko": "바운스 약점 부위 가중치+300%",
+            "en": "Bounce Weakspot Priority +300%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "다중 바운스",
+            "en": "Bounce Rampage"
+        },
+        "equip_type": "무기",
+        "features": [
+            "바운스"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "바운스 목표 수량이 많을 수록 바운스 대미지 증가, 최대+45%",
+            "en": "Bounce Deals more DMG as more targets are hit, up to DMG +45%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "바운스 전리품",
+            "en": "Not Throw Away"
+        },
+        "equip_type": "무기",
+        "features": [
+            "바운스"
+        ],
+        "keywords": [
+            "총알 회복"
+        ],
+        "core_effect": {
+            "ko": "바운스는 아군 유닛을 명중할 수 있고 명중 시 대미지 없음. 1발 총알 회복",
+            "en": "Bounce can hit allies but deals no DMG and refills 1 bullet"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "고에너지 바운스",
+            "en": "Super Bullet"
+        },
+        "equip_type": "무기",
+        "features": [
+            "바운스"
+        ],
+        "keywords": [
+            "크리티컬 확률",
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "바운스 크리티컬 확률+10%, 바운스 크리티컬 대미지+25%",
+            "en": "Bounce Crit Rate +10%, Bounce Crit DMG + 25%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            },
+            {
+                "method": "송곳니 모노리스",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "잊혀진 모노리스",
+                "difficulty": [
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "HP 강화",
+            "en": "Lifeforce Boost"
+        },
+        "equip_type": "방어구 범용",
+        "features": null,
+        "keywords": [
+            "HP 증가"
+        ],
+        "core_effect": {
+            "ko": "HP(%)+12.0%",
+            "en": "HP +12%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "럭키 딜러",
+            "en": "Fateful Strike"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "크리티컬 확률",
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "추가 약점 대미지를 입힐 수 없으며 크리티컬 확률+10%, 크리티컬 대미지+30%",
+            "en": "Cannot deal Weakspot DMG. Crit rate +10% and Crit DMG +30%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "트랜스 전문가",
+            "en": "Deviation Expert"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "발사 속도",
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "사거리-25%, 발사 속도+10%, 트랜스 대미지+20%",
+            "en": "Range -25%, Fire Rate +10%, Status DMG +20%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "원소 조종",
+            "en": "Elemental Havoc"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "원소 대미지"
+        ],
+        "core_effect": {
+            "ko": "원소 대미지+10%, HP가 90%이상일 때, 추가로+10%",
+            "en": "Elemental DMG +10%. When HP is above 90%, 10% additionally."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "화력 추격",
+            "en": "Momentum Up"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "발사 속도",
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "초반 50% 탄창 발사 속도+10%, 후반 50% 탄창 총기 대미지+30%",
+            "en": "Fire Rate 10%+ for the first 50% of the magazine and Weapon DMG +30% for the next 50% of the magazine."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "정밀 타격",
+            "en": "Precise Strike"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "약점 대미지"
+        ],
+        "core_effect": {
+            "ko": "약점 부위 명중 후, 약점 대미지+12%, 3초간 지속, 3스택 중첩 가능",
+            "en": "Hitting Weakspots grants +12.0% Weakspot DMG for 3 seconds, up to 3 stacks"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "창조의 힘",
+            "en": "Work of Proficiency"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "장전 속도",
+            "원소 대미지"
+        ],
+        "core_effect": {
+            "ko": "빈 탄창 장전 시, 장전 속도+10%, 원소 대미지+20%, 5초 간 지속되며, 다음 장전 시 리셋",
+            "en": "Reloading an empty mag grants 10% Reload Speed and +20.0% Elemental DMG, lasting until the next reload"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "풀장전",
+            "en": "Mag Expansion"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "탄창 용량"
+        ],
+        "core_effect": {
+            "ko": "빈 탄창 장전 시 탄창 용량+30%",
+            "en": "When the magazine is empty, Magazine Capacity 30%+"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "어드밴티지",
+            "en": "First-Move Advantage"
+        },
+        "equip_type": "헬멧",
+        "features": null,
+        "keywords": [
+            "크리티컬 확률",
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "장전 후 2초 내 크리티컬 확률+10%, 크리티컬 대미지+20%",
+            "en": "After reloading, Crit Rate +10%, Crit DMG + 20% for 2s."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 알파",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "딥 익스플로전",
+            "en": "Retrusion Explosion"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "플레임"
+        ],
+        "keywords": [
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "플레임 상태인 적에게 입히는 크리티컬 대미지+40%",
+            "en": "Crit DMG +40% for enemies with Burn"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "심각한 화상",
+            "en": "Blaze Amplifier"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "플레임"
+        ],
+        "keywords": [
+            "초감각 대미지"
+        ],
+        "core_effect": {
+            "ko": "플레임 스택 당 추가로 +3% 초감각 대미지",
+            "en": "Every stack of Burn grants +3% Psi Intensity DMG."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "지속 빙결",
+            "en": "Lingering Frost"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "서리의 선풍"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "서리의 윈드 지속 시간이 길 수록 서리의 윈드 최종 대미지 증가, 최대 +60%",
+            "en": "The longer the duration of Frost Vortex, the higher the Frost Vortex Final DMG, up to +60%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "일망타진",
+            "en": "Obliteration"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "서리의 선풍"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "서리의 윈드 내에 적이 많을수록 서리의 윈드 최종 대미지 증가, 최대+60%",
+            "en": "The more enemies inside Frost Vortex, the higher the Ultimate DMG of Frost Vortex, up to 60%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "싱글 블래스트",
+            "en": "Point Detonation"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "불안정한 다이너마이트"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "폭탄으로 한 명의 적에게만 대미지 부여 시 불안정 다이너마이트 최종 대미지+25%",
+            "en": "When Unstable Bomber hits only one enemy, Unstable Bomber Final DMG +25%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "기폭 지연",
+            "en": "Delayed Blast"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "불안정한 다이너마이트"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "폭탄이 폭발하기 전, 5회 명중 당할 때마다 폭탄 최종 대미지+25%",
+            "en": "Before the bomb explodes, for every 5 hits taken, the bomb's Ultimate DMG +25%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "폭발 파편",
+            "en": "Explosive Shrapnel"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "유산탄"
+        ],
+        "keywords": [
+            "크리티컬 발동"
+        ],
+        "core_effect": {
+            "ko": "20번째 발동된 유산탄이 붐버 유산탄이 되며 유산탄 대미지 계수+300%, 반드시 크리티컬 발동",
+            "en": "The 20th Shrapnel is explosive and deals +300% DMG with guaranteed critical hit."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "정방향 격파",
+            "en": "Shrapnel Carnage"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "유산탄"
+        ],
+        "keywords": [
+            "약점 대미지",
+            "약점 가중치"
+        ],
+        "core_effect": {
+            "ko": "유산탄 약점 명중 가중치+100%, 유산탄 약점 대미지+25%",
+            "en": "The chance of Shrapnel hitting Weakspots is increased by 100.0%, with Weakspot DMG +25.0%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "기린의 뇌명",
+            "en": "Thunderclap"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "파워 서지"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "파워 서지 20회 발동 후, 총기로 다음 명중 시 목표 지점에 번개 소환(200% 초감각 강도 플라즈마 원소 대미지)",
+            "en": "After triggering Power Surge 20 times, the next hit summons Celestial Thunder (Shock DMG of 200% PSI Intensity)."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "첫 감전",
+            "en": "First Electrocution"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "파워 서지"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "파워 서지 트랜스 상태가 아닌 적에게 파워 서지 최종 대미지+30%",
+            "en": "For enemies without Power Surge status, Power Surge's Ultimate DMG +30%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "정밀 속사",
+            "en": "Gunslinger"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "패스트 거너"
+        ],
+        "keywords": [
+            "약점 대미지"
+        ],
+        "core_effect": {
+            "ko": "패스트 거너 상태에서 약점 대미지+30%",
+            "en": "When in Fast Gunner status, Weakspot DMG +30%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "속도만이 살길",
+            "en": "Blitzkrieg"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "패스트 거너"
+        ],
+        "keywords": [
+            "발사 속도"
+        ],
+        "core_effect": {
+            "ko": "패스트 거너 중첩 스택 수+5, 스택당 발사 속도 추가로+1%",
+            "en": "Fast Gunner stacks +5 and additional Fire Rate +1% for each stack"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "전면 수배",
+            "en": "Targeted Strike"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "헌터 마크"
+        ],
+        "keywords": [
+            "크리티컬 확률",
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "표식 상태인 적에 대한 크리티컬 확률+10%, 크리티컬 대미지+25%",
+            "en": "When hitting marked enemies, Crit Rate +10%, and Crit DMG 25%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "전원 수배",
+            "en": "Most Wanted"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "헌터 마크"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "적을 표시할 때마다 대미지+5%, 3스택 중첩 가능하며, 8초 동안 지속",
+            "en": "Every time an enemy is marked, Attack +5% for 8s. Effect can stack up to 3 times."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "경장 대포",
+            "en": "Light Cannon"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "리버스 워페어"
+        ],
+        "keywords": [
+            "중무장"
+        ],
+        "core_effect": {
+            "ko": "리버스 워페어 내부에서 더 이상 무적 상태가 아니며, 중무장 상태에서 대미지+15%",
+            "en": "No Super Armor inside Fortress Warfare While in Fortress Warfare state, Attack +12%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "일인 직선",
+            "en": "Unbreakable"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "리버스 워페어"
+        ],
+        "keywords": [
+            "중무장"
+        ],
+        "core_effect": {
+            "ko": "리버스 워페어 범위-30%, 자신이 중무장 상태일 때 대미지+15%",
+            "en": "Fortress Warfare range -30%. While in Fortress Warfare state, Attack +15%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "정밀 바운스",
+            "en": "Precision Bounce"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "바운스"
+        ],
+        "keywords": [
+            "크리티컬 발동"
+        ],
+        "core_effect": {
+            "ko": "6번째 발동된 바운스가 정밀 바운스가 되며 바운스 대미지 계수+100%, 반드시 크리티컬 발동",
+            "en": "The 6th Bounce is Precision Bounce and deals +100% DMG with guaranteed critical hit."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "파세 바운스",
+            "en": "Break Bounce"
+        },
+        "equip_type": "마스크",
+        "features": [
+            "바운스"
+        ],
+        "keywords": null,
+        "core_effect": {
+            "ko": "바운스로 HP가 50% 이상인 적 명중 시, 바운스 최종 대미지+50%",
+            "en": "When a bullet hits an enemy with HP above 50%, the bullet's Ultimate DMG +50%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 다크헬",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "우세 대항",
+            "en": "Resist Advantage"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "대미지 감소"
+        ],
+        "core_effect": {
+            "ko": "비전투 상태에서 5초마다 10% 대미지 감소 1스택 획득, 최대 5스택, 피격 시 1스택 제거",
+            "en": "When out of combat, gain 1 stack of 10% DMG Reduction every 5s. Effect can stack up to 5 times. 1 stack is removed when hit."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "두부 보호",
+            "en": "Head Guard"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "머리 방어"
+        ],
+        "core_effect": {
+            "ko": "HP가 70% 이상일 때, 자신의 머리는 약점으로 간주 되지 않음",
+            "en": "When HP is above 70%, the head area is no longer a weakspot."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "치료 수호",
+            "en": "Healing Fortification"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "대미지 감소"
+        ],
+        "core_effect": {
+            "ko": "치료 주사 사용 시, 대미지 감소 40%, 2초간 지속",
+            "en": "When using a healing shot, DMG Reduction 40% for 2s."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "빠른 귀환",
+            "en": "Quick Comeback"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "이동 속도",
+            "자동 장전"
+        ],
+        "core_effect": {
+            "ko": "치료 주사 사용 시 이동 속도 +20%, 2초간 지속. 예비 탄창에서 탄창에 100%까지 장전",
+            "en": "When using a healing shot, Movement Speed +20% for 2s and refill the magazine from the inventory up to 100%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "지속 수호",
+            "en": "Enduring Shield"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "보호막"
+        ],
+        "core_effect": {
+            "ko": "비전투 상태에서 5초마다 수호 효과 1스택 획득, 최대 5스택. 대미지를 5회 입을 때마다 수호 효과를 1스택 소모하여 8%의 보호막 획득, 3초간 지속",
+            "en": "When out of combat, gain 1 stack of Safe Haven every 5s. Effect can stack up to 5 times. With every 5 damage received, remove 1 stack of Safe Haven to get 8% shield for 3s."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "정면 충돌",
+            "en": "Head-on Conflict"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "대미지 감소"
+        ],
+        "core_effect": {
+            "ko": "7m 범위 내에 적군 유닛이 있는 경우 대미지 감소 10%, 적군에게 근접 공격을 받을 경우, 추가 대미지 감소 10%, 5초간 지속",
+            "en": "Having enemies within 7 meters around you grants a 10% DMG Reduction. Taking melee DMG from enemies grants an extra 10.0% DMG Reduction for 5 seconds"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "절망 탈출",
+            "en": "Critical Rescue"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "대미지 감소",
+            "치유 증폭"
+        ],
+        "core_effect": {
+            "ko": "HP가 30% 보다 낮을 경우 대미지 감소 20%, 치료 효과+20%",
+            "en": "DMG Reduction 20% and Healing Received + 20% when HP is below 30%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "트랜스 면역",
+            "en": "Status Immune"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "트랜스 방어"
+        ],
+        "core_effect": {
+            "ko": "HP가 60% 미만일 때, 디버프 트랜스 상태 해제(쿨타임: 15초)",
+            "en": "When HP is lower than 60%, purge all Deviated State (cooldown: 15s)"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "세력 보존",
+            "en": "Rejuvenating"
+        },
+        "equip_type": "상의",
+        "features": [
+            "방어"
+        ],
+        "keywords": [
+            "HP 회복"
+        ],
+        "core_effect": {
+            "ko": "HP가 60% 이상일 경우, 처치 시 자신이 잃은 HP의 15%만큼 HP 회복",
+            "en": "When HP is above 60%, a kill recovers 15% lost HP."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 서쪽탑",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "크리티컬 피해 강화",
+            "en": "Crit Amplifier"
+        },
+        "equip_type": "장갑",
+        "features": null,
+        "keywords": [
+            "크리티컬 확률",
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "크리티컬 확률+10.0%, 크리티컬 대미지+15.0%",
+            "en": "Crit Rate +10%, Crit DMG +15%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "크리티컬 강화",
+            "en": "Crit Boost"
+        },
+        "equip_type": "장갑",
+        "features": null,
+        "keywords": [
+            "크리티컬 확률"
+        ],
+        "core_effect": {
+            "ko": "크리티컬 확률+15.0%",
+            "en": "Crit Rate +15.0%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "원소 강화",
+            "en": "Elemental Overload"
+        },
+        "equip_type": "장갑",
+        "features": null,
+        "keywords": [
+            "원소 대미지"
+        ],
+        "core_effect": {
+            "ko": "원소(블레이즈, 플라즈마, 프리징, 폭발) 대미지+18%",
+            "en": "Element DMG (Blaze, Frost, Shock, Blast) +18%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "트랜스 강화",
+            "en": "Status Enhancement"
+        },
+        "equip_type": "장갑",
+        "features": null,
+        "keywords": [
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "트랜스 대미지+20.0%",
+            "en": "Status DMG +20.0%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "총기 강화",
+            "en": "Munitions Amplifier"
+        },
+        "equip_type": "장갑",
+        "features": null,
+        "keywords": [
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "총기 대미지+15.0%",
+            "en": "Weapon DMG +15.0%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "약점 강화",
+            "en": "Weakspot DMG Boost"
+        },
+        "equip_type": "장갑",
+        "features": null,
+        "keywords": [
+            "약점 대미지"
+        ],
+        "core_effect": {
+            "ko": "약점 대미지+25.0%",
+            "en": "Weakspot DMG Boost +25%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "근거리 강화",
+            "en": "Melee Amplifier"
+        },
+        "equip_type": "장갑",
+        "features": null,
+        "keywords": [
+            "근접 대미지"
+        ],
+        "core_effect": {
+            "ko": "근접 대미지+20.0%",
+            "en": "Melee DMG +20.0%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "크리티컬 프렌지",
+            "en": "Deadshot"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "비근접 무기로 크리티컬이 발동할 때마다 크리티컬 대미지+5%, 최대 45%. 장전 액션 후 소멸",
+            "en": "Each Crit Hit by non-melee weapons grants +5% Crit DMG, up to 45%. The effect is removed upon the next reload."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "육탄전",
+            "en": "Melee Momentum"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "근접 대미지",
+            "스태미나 회복"
+        ],
+        "core_effect": {
+            "ko": "근접 대미지+20%, 근접 처치 후 최대 스태미나의 30% 회복",
+            "en": "Killing with melee attacks restores 30.0% of Max Stamina and grants +20.0% Melee DMG for 8 seconds"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "재보급",
+            "en": "Reload Rampage"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "자동 장전",
+            "총기 대미지",
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "적 처치 후, 예비 탄창에서 총알 2발 장전(탄창 용량의 50%를 초과하지 않음), 총기, 트랜스 대미지+10%, 장전할 때까지 지속",
+            "en": "Killing 2 enemies refills 2 bullets from inventory (no more than half of the mag), and grants +10.0% Weapon and Status DMG, lasting until the next reload"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "백발백중",
+            "en": "Unstoppable"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "약점 대미지"
+        ],
+        "core_effect": {
+            "ko": "총알이 20m 밖의 대상에 명중 시 무기 약점 대미지+20%, 타깃으로부터 1m 떨어질 때마다 약점 대미지 추가로+1%, 최대+20%",
+            "en": "Weakspot DMG +10% when a bullet hits a target more than 20m away. For every additional 1meters away from the target, Weakspot DMG +1% up to 20%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "총알 블랙홀",
+            "en": "Bullet Siphon"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "총기 대미지+5%, 탄창의 총알이 5개 감소할 때마다 총기 대미지 +4%, 최대 20%",
+            "en": "Weapon DMG +5%. Every 5 bullets consumed in the magazine grants +4% Weapon DMG, capped at 20%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "트랜스 증폭",
+            "en": "Status Amplification"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "매번 빈 탄창 장전 후, 트랜스 대미지+10%, 12초간 지속(최대 3스택 중첩)",
+            "en": "When the magazine is empty, Status DMG + 10% for 12s (up to 3 stacks)"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "정교한 충전",
+            "en": "Precision Charge"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "원소 대미지"
+        ],
+        "core_effect": {
+            "ko": "이전 탄창의 약점 명중률 10%마다 원소 대미지+4%, 최대 24% 증가, 10초간 지속, 장전 후 다시 계산",
+            "en": "For every 10% Weakspot hit rate of the previous magazine, Elemental DMG +4%, up to 24%, lasting for 10s. Reloading resets the calculation."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "마지막 기회",
+            "en": "Three Strikes"
+        },
+        "equip_type": "하의",
+        "features": null,
+        "keywords": [
+            "약점 대미지"
+        ],
+        "core_effect": {
+            "ko": "재장전 후 3번 명중 시 약점 대미지(탄창 용량의 50% 미만으로 제한)+50%",
+            "en": "For the first three hits after reloading (not exceeding 50% of magazine capacity), Weakspot DMG +50%."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 극한의 설국",
+                "difficulty": [
+                    "노멀",
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "엄호 준비",
+            "en": "Covered Advance"
+        },
+        "equip_type": "신발",
+        "features": null,
+        "keywords": [
+            "근접 대미지",
+            "무기 대미지",
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "4초 동안 대미지를 받지 않을 시 근접, 무기, 트랜스 대미지+20%, 30초간 지속(보너스 종료 후 다시 대미지 판정)",
+            "en": "Taking no DMG within 4s grants +20% Melee, Weapon, and Status DMG for 30 seconds. The effect resets when the duration ends."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 페이",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "차근차근",
+            "en": "Slow And Steady"
+        },
+        "equip_type": "신발",
+        "features": null,
+        "keywords": [
+            "근접 대미지",
+            "총기 대미지",
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "근접, 총기, 트랜스 대미지+10%, HP가 90%보다 높을 시 추가로+10%",
+            "en": "+10% Melee, Weapon, Status DMG. When HP is above 90%, DMG +10%"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 페이",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "강 건너 불구경",
+            "en": "Secluded Strike"
+        },
+        "equip_type": "신발",
+        "features": null,
+        "keywords": [
+            "총기 대미지",
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "7m 범위 내에 적이 없는 경우 총기, 트랜스 대미지+15%",
+            "en": "Having no enemies within 7 meters around you grants +15% Weapon and Status DMG."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 페이",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "전장 수확",
+            "en": "Ruthless Reaper Precision"
+        },
+        "equip_type": "신발",
+        "features": null,
+        "keywords": [
+            "자동 장전"
+        ],
+        "core_effect": {
+            "ko": "적 2명 누적 처치 후, 예비탄을 탄창에 100%까지 장전",
+            "en": "After accumulating 2 kill(s), refill the 100% of your magazine from your reserves."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 페이",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "돌격",
+            "en": "Ferocious Charge"
+        },
+        "equip_type": "신발",
+        "features": null,
+        "keywords": [
+            "근접 대미지",
+            "총기 대미지",
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "10m 이내의 타깃 처치 시 근접, 총기, 트랜스 대미지+20%, 8초간 지속",
+            "en": "Killing enemies within 10 meters grants Melee, Weapon DMG, Status DMG +20% for 8s"
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 페이",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "피크타임",
+            "en": "Rush Hour"
+        },
+        "equip_type": "신발",
+        "features": null,
+        "keywords": [
+            "근접 대미지",
+            "총기 대미지",
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "현재 HP가 10% 낮아질 때마다 근접, 총기, 트랜스 대미지+4%",
+            "en": "Every 10% HP loss grants +4% Melee, Weapon, and Status DMG."
+        },
+        "grade": "4",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 페이",
+                "difficulty": [
+                    "하드",
+                    "마스터"
+                ]
+            },
+            {
+                "method": "생명 진화 연구소",
+                "difficulty": [
+                    "마스터"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "트랜스 강화",
+            "en": "Status Enhancement"
+        },
+        "equip_type": "방어구 범용",
+        "features": null,
+        "keywords": [
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "트랜스 대미지+12.0%",
+            "en": "Status DMG +12.0%"
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "노멀"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "약점 강화",
+            "en": "Weakspot DMG Boost"
+        },
+        "equip_type": "방어구 범용",
+        "features": null,
+        "keywords": [
+            "약점 대미지"
+        ],
+        "core_effect": {
+            "ko": "약점 대미지+15.0%",
+            "en": "Weakspot DMG +15.0%"
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "노멀"
+                ]
+            }
+        ]
+    },
+    {
+        "image": "crit-amplifier",
+        "name": {
+            "ko": "크리티컬 피해 강화",
+            "en": "Crit DMG Enhancement"
+        },
+        "equip_type": "방어구 범용",
+        "features": null,
+        "keywords": [
+            "크리티컬 확률",
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "크리티컬 확률+2.0%, 크리티컬 대미지+12.0%",
+            "en": "Crit Rate +2%, Crit DMG +12%."
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "노멀"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "총기 강화",
+            "en": "Munitions Amplifier"
+        },
+        "equip_type": "방어구 범용",
+        "features": null,
+        "keywords": [
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "총기 대미지+9%",
+            "en": "Weapon DMG +9.0%"
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "노멀"
+                ]
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "HP 강화",
+            "en": "Lifeforce Boost"
+        },
+        "equip_type": "방어구 범용",
+        "features": null,
+        "keywords": [
+            "HP 증가"
+        ],
+        "core_effect": {
+            "ko": "HP(%)+8.0%",
+            "en": "HP +8%"
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "장비 상자",
+                "difficulty": null
+            },
+            {
+                "method": "사일로 - 시그마",
+                "difficulty": [
+                    "노멀"
+                ]
+            }
+        ]
+    },
+    {
+        "image": "crit-boost",
+        "name": {
+            "ko": "크리티컬 강화",
+            "en": "Crit Rate Enhancement"
+        },
+        "equip_type": "무기",
+        "features": null,
+        "keywords": [
+            "크리티컬 확률"
+        ],
+        "core_effect": {
+            "ko": "크리티컬 확률 +9%",
+            "en": "Crit Rate +9%"
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "총기 강화",
+            "en": "Munitions Amplifier"
+        },
+        "equip_type": "무기",
+        "features": null,
+        "keywords": [
+            "총기 대미지"
+        ],
+        "core_effect": {
+            "ko": "총기 대미지+9%",
+            "en": "Weapon DMG +9.0%"
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            }
+        ]
+    },
+    {
+        "image": "crit-amplifier",
+        "name": {
+            "ko": "크리티컬 피해 강화",
+            "en": "Crit DMG Enhancement"
+        },
+        "equip_type": "무기",
+        "features": null,
+        "keywords": [
+            "크리티컬 확률",
+            "크리티컬 대미지"
+        ],
+        "core_effect": {
+            "ko": "크리티컬 확률+2.0%, 크리티컬 대미지+12.0%",
+            "en": "Crit Rate +2%, Crit DMG +12%."
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            }
+        ]
+    },
+    {
+        "name": {
+            "ko": "트랜스 강화",
+            "en": "Status Enhancement"
+        },
+        "equip_type": "무기",
+        "features": null,
+        "keywords": [
+            "트랜스 대미지"
+        ],
+        "core_effect": {
+            "ko": "트랜스 대미지+12.0%",
+            "en": "Status DMG +12.0%"
+        },
+        "grade": "2",
+        "from": [
+            {
+                "method": "무기 상자",
+                "difficulty": null
+            }
+        ]
+    }
+]

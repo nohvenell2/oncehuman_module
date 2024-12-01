@@ -187,13 +187,13 @@ export default function Home() {
  */
 function getInitialEquipment(): Equipment {
     return {
-        mainWeapon: { name: '', moduleName: '', moduleOptions: [] },
-        subWeapon: { name: '', moduleName: '', moduleOptions: [] },
-        helmet: { name: '', moduleName: '', moduleOptions: [] },
-        mask: { name: '', moduleName: '', moduleOptions: [] },
-        top: { name: '', moduleName: '', moduleOptions: [] },
-        gloves: { name: '', moduleName: '', moduleOptions: [] },
-        bottom: { name: '', moduleName: '', moduleOptions: [] },
-        shoes: { name: '', moduleName: '', moduleOptions: [] }
+        mainWeapon: { name: '', moduleName: '', moduleOptions: [], type: '무기' },
+        subWeapon: { name: '', moduleName: '', moduleOptions: [], type: '무기' },
+        helmet: { name: '', moduleName: '', moduleOptions: [], type: '헬멧' },
+        mask: { name: '', moduleName: '', moduleOptions: [], type: '마스크' },
+        top: { name: '', moduleName: '', moduleOptions: [], type: '상의' },
+        gloves: { name: '', moduleName: '', moduleOptions: [], type: '장갑' },
+        bottom: { name: '', moduleName: '', moduleOptions: [], type: '하의' },
+        shoes: { name: '', moduleName: '', moduleOptions: [], type: '신발' }
     };
 }

@@ -10,6 +10,7 @@ export interface Item {
     name: string;
     moduleName: string;
     moduleOptions: ModuleOption[];
+    type: '무기' | '헬멧' | '마스크' | '상의' | '장갑' | '하의' | '신발';
 }
 
 export type Equipment = {

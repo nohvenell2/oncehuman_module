@@ -2,99 +2,94 @@
 
 import { useState, useEffect } from 'react';
 import { ModuleOption } from '@/types/item';
-import { MODULE_OPTIONS, GRADES, MODULE_VALUES } from '@/constants/items';
+import moduleNames from '@/data/moduleNames.json';
 import styles from './ModuleOptions.module.scss';
+import { GRADES, MODULE_OPTIONS, MODULE_VALUES } from '@/constants/items';
 
 interface ModuleOptionsProps {
     options: ModuleOption[];
     moduleName?: string;
     onChange: (options: ModuleOption[]) => void;
     onModuleNameChange: (name: string) => void;
+    type: '무기' | '헬멧' | '마스크' | '상의' | '장갑' | '하의' | '신발';
 }
 
 export default function ModuleOptions({ 
     options = [], 
     moduleName = '', 
     onChange,
-    onModuleNameChange 
+    onModuleNameChange,
+    type 
 }: ModuleOptionsProps) {
-    const [isAdding, setIsAdding] = useState(false);
     const [isEditingName, setIsEditingName] = useState(false);
-    const [tempModuleName, setTempModuleName] = useState(moduleName);
-    const [newOption, setNewOption] = useState<ModuleOption>(() => ({
+    const [searchTerm, setSearchTerm] = useState(moduleName);
+    const [isComboboxOpen, setIsComboboxOpen] = useState(false);
+    const [isAdding, setIsAdding] = useState(false);
+    const [newOption, setNewOption] = useState<ModuleOption>({
         type: 'criticalDamage',
         grade: 'grey',
-        value: MODULE_VALUES['criticalDamage']['grey']
-    }));
+        value: MODULE_VALUES.criticalDamage.grey
+    });
+    const [blurTimeoutId, setBlurTimeoutId] = useState<NodeJS.Timeout | null>(null);
+    // 해당 type의 모듈 목록 가져오기
+    const availableModules = moduleNames[type] || [];
+    const filteredModules = availableModules.filter(module => 
+        module.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
-    const availableOptions = Object.entries(MODULE_OPTIONS)
-        .filter(([key]) => !options.some(option => option.type === key))
-        .map(([key, value]) => ({
-            key: key as ModuleOption['type'],
-            value
-        }));
-
-    useEffect(() => {
-        if (availableOptions.length > 0) {
-            setNewOption(prev => ({
-                ...prev,
-                type: availableOptions[0].key
-            }));
-        }
-    }, [availableOptions.length]);
-
-    const handleOptionTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        const type = e.target.value as ModuleOption['type'];
-        setNewOption(prev => ({
-            ...prev,
-            type,
-            value: MODULE_VALUES[type][prev.grade]
-        }));
+    const handleModuleSelect = (selectedModule: typeof availableModules[0]) => {
+        onModuleNameChange(selectedModule.name);
+        setIsComboboxOpen(false);
+        setSearchTerm(selectedModule.name);
+        setIsEditingName(false);
     };
 
-    const handleGradeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        const grade = e.target.value as ModuleOption['grade'];
-        setNewOption(prev => ({
-            ...prev,
-            grade,
-            value: MODULE_VALUES[prev.type][grade]
-        }));
-    };
-
-    const resetNewOption = () => {
-        const defaultType = availableOptions[0]?.key || 'criticalDamage';
-        const defaultGrade = 'grey';
-        setNewOption({
-            type: defaultType,
-            grade: defaultGrade,
-            value: MODULE_VALUES[defaultType][defaultGrade]
-        });
-    };
-
-    const addOption = () => {
-        if (options.length >= 4) return;
-        setIsAdding(true);
+    const addOption = () => setIsAdding(true);
+    const cancelOption = () => setIsAdding(false);
+    const removeOption = (index: number) => {
+        onChange(options.filter((_, i) => i !== index));
     };
 
     const confirmOption = () => {
         onChange([...options, newOption]);
         setIsAdding(false);
-        resetNewOption();
+        setNewOption({
+            type: 'criticalDamage',
+            grade: 'grey',
+            value: MODULE_VALUES.criticalDamage.grey
+        });
     };
 
-    const cancelOption = () => {
-        setIsAdding(false);
-        resetNewOption();
+    const handleOptionTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const type = e.target.value as keyof typeof MODULE_OPTIONS;
+        setNewOption({
+            ...newOption,
+            type,
+            value: MODULE_VALUES[type][newOption.grade]
+        });
     };
 
-    const removeOption = (index: number) => {
-        onChange(options.filter((_, i) => i !== index));
+    const handleGradeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const grade = e.target.value as keyof typeof GRADES;
+        setNewOption({
+            ...newOption,
+            grade,
+            value: MODULE_VALUES[newOption.type][grade]
+        });
     };
 
-    const handleModuleNameSubmit = () => {
-        onModuleNameChange(tempModuleName);
-        setIsEditingName(false);
-    };
+    const availableOptions = Object.entries(MODULE_OPTIONS).map(([key, value]) => ({
+        key,
+        value
+    }));
+
+    useEffect(() => {
+        return () => {
+            if (blurTimeoutId) {
+                clearTimeout(blurTimeoutId);
+            }
+        };
+    }, [blurTimeoutId]);
 
     return (
         <div className={styles.moduleOptions}>
@@ -111,22 +106,54 @@ export default function ModuleOptions({
                         </button>
                     </div>
                 ) : (
-                    <input
-                        type="text"
-                        value={tempModuleName}
-                        onChange={(e) => setTempModuleName(e.target.value)}
-                        onBlur={handleModuleNameSubmit}
-                        onKeyPress={(e) => e.key === 'Enter' && handleModuleNameSubmit()}
-                        placeholder="모듈 이름"
-                        className={styles.input}
-                        autoFocus={isEditingName}
-                    />
+                    <div className={styles.comboboxContainer}>
+                        <input
+                            type="text"
+                            value={searchTerm}
+                            onChange={(e) => {
+                                setSearchTerm(e.target.value);
+                                setIsComboboxOpen(true);
+                            }}
+                            onKeyDown={(e) => {
+                                if (e.key === 'Enter' && filteredModules.length > 0) {
+                                    handleModuleSelect(filteredModules[0]);
+                                } else if (e.key === 'Escape') {
+                                    setIsComboboxOpen(false);
+                                }
+                            }}
+                            onFocus={() => setIsComboboxOpen(true)}
+                            onBlur={() => {
+                                const timeoutId = setTimeout(() => setIsComboboxOpen(false), 200);
+                                setBlurTimeoutId(timeoutId);
+                            }}
+                            placeholder="모듈 이름 검색..."
+                            className={styles.comboboxInput}
+                            autoFocus={isEditingName}
+                        />
+                        {isComboboxOpen && filteredModules.length > 0 && (
+                            <ul className={styles.comboboxDropdown}>
+                                {filteredModules.map((module) => (
+                                    <li
+                                        key={module.name}
+                                        onClick={() => handleModuleSelect(module)}
+                                        className={styles.comboboxItem}
+                                    >
+                                        <div className={styles.moduleItem}>
+                                            <span className={styles.moduleName}>{module.name}</span>
+                                            <span className={styles.moduleFeatures}>{`[${module.features}]`}</span>
+                                        </div>
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
+                    </div>
                 )}
             </div>
-            <div className={styles.optionsList}>
+
+            <div className={styles.moduleOptionsList}>
                 {options.map((option, index) => (
                     <div key={`${option.type}-${option.grade}-${index}`} 
-                         className={`${styles.optionItem} ${styles[option.grade]}`}>
+                         className={`${styles.moduleOptionItem} ${styles[option.grade]}`}>
                         <span className={`${styles.gradeIcon} ${styles[option.grade]}`}>
                             ◆
                         </span>
@@ -202,4 +229,4 @@ export default function ModuleOptions({
             )}
         </div>
     );
-} 
+}
