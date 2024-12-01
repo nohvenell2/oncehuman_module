@@ -1,7 +1,7 @@
 export type Grade = 'grey' | 'green' | 'blue' | 'purple' | 'yellow';
 
 export type ModuleOption = {
-    type: 'criticalDamage' | 'bossDamage' | 'eliteDamage' | 'normalDamage' | 'weaponDamage' | 'weakPointDamage';
+    type: 'criticalDamage' | 'bossDamage' | 'eliteDamage' | 'normalDamage' | 'weaponDamage' | 'weakPointDamage' | 'elementalDamage' | 'extraMagazine' | 'transDamage';
     grade: Grade;
     value: number;
 };

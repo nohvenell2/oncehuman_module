@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { ModuleOption } from '@/types/item';
-import { MODULE_OPTIONS, GRADES } from '@/constants/items';
+import { MODULE_OPTIONS, GRADES, MODULE_VALUES } from '@/constants/items';
 import styles from './ModuleOptions.module.scss';
 
 interface ModuleOptionsProps {
@@ -24,7 +24,7 @@ export default function ModuleOptions({
     const [newOption, setNewOption] = useState<ModuleOption>(() => ({
         type: 'criticalDamage',
         grade: 'grey',
-        value: 0
+        value: MODULE_VALUES['criticalDamage']['grey']
     }));
 
     const availableOptions = Object.entries(MODULE_OPTIONS)
@@ -44,10 +44,31 @@ export default function ModuleOptions({
     }, [availableOptions.length]);
 
     const handleOptionTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const type = e.target.value as ModuleOption['type'];
         setNewOption(prev => ({
             ...prev,
-            type: e.target.value as ModuleOption['type']
+            type,
+            value: MODULE_VALUES[type][prev.grade]
         }));
+    };
+
+    const handleGradeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const grade = e.target.value as ModuleOption['grade'];
+        setNewOption(prev => ({
+            ...prev,
+            grade,
+            value: MODULE_VALUES[prev.type][grade]
+        }));
+    };
+
+    const resetNewOption = () => {
+        const defaultType = availableOptions[0]?.key || 'criticalDamage';
+        const defaultGrade = 'grey';
+        setNewOption({
+            type: defaultType,
+            grade: defaultGrade,
+            value: MODULE_VALUES[defaultType][defaultGrade]
+        });
     };
 
     const addOption = () => {
@@ -58,12 +79,12 @@ export default function ModuleOptions({
     const confirmOption = () => {
         onChange([...options, newOption]);
         setIsAdding(false);
-        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey', value: 0 });
+        resetNewOption();
     };
 
     const cancelOption = () => {
         setIsAdding(false);
-        setNewOption({ type: availableOptions[0]?.key || 'criticalDamage', grade: 'grey', value: 0 });
+        resetNewOption();
     };
 
     const removeOption = (index: number) => {
@@ -112,6 +133,9 @@ export default function ModuleOptions({
                         <span className={styles.optionText}>
                             {MODULE_OPTIONS[option.type]}
                         </span>
+                        <span className={styles.optionValue}>
+                            +{MODULE_VALUES[option.type][option.grade]}%
+                        </span>
                         <button
                             onClick={() => removeOption(index)}
                             className={styles.removeButton}
@@ -142,10 +166,7 @@ export default function ModuleOptions({
                     </select>
                     <select
                         value={newOption.grade}
-                        onChange={(e) => setNewOption(prev => ({
-                            ...prev,
-                            grade: e.target.value as ModuleOption['grade']
-                        }))}
+                        onChange={handleGradeChange}
                         className={`${styles.select} ${styles[newOption.grade]}`}
                         data-type="grade"
                     >

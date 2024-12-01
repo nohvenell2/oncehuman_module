@@ -1,0 +1,2664 @@
+[
+    {
+        "image": "yellow-paint-mask.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "노랑 페인트 마스크"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Yellow Paint Mask"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "파워 서지",
+        "style": "오퍼레이터",
+        "description": [
+            "유닛 처치 시 전자기 펄스를 생성해 주변 적에게 파워 서지 1회 발동"
+        ]
+    },
+    {
+        "image": "renegade-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "디펙터 세트"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Renegade Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "디펙터 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "rustic-hat.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "러스틱 모자"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "RUSTIC HAT"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "413",
+                "res": "21",
+                "psi": "64"
+            }
+        },
+        "type": "set",
+        "set": "러스틱 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "raid-face-shield.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "레이드 마스크"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "RAID FACE SHIELD"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "472",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "레이드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "mayfly-goggles.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "메이플라이 고글"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Mayfly Goggles"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "531",
+                "res": "21",
+                "psi": "83"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "파워 서지",
+        "style": "오퍼레이터",
+        "description": [
+            "<strong>파워 서지</strong> 발동 횟수+1, 파워 서지 대미지 계수-30%"
+        ],
+        "map": "mayfly-goggles"
+    },
+    {
+        "image": "bastille-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "바스티유 세트"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Bastille Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "바스티유 세트",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "gas-tight-helmet.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "방독 마스크"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Gas-tight Helmet"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "유산탄",
+        "style": "방랑자",
+        "description": [
+            "유산탄 명중 부위 최대1",
+            "유산탄 대미지 계수+120%"
+        ]
+    },
+    {
+        "image": "gas-mask-hood.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "방독 후드"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Gas Mask Hood"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "파워 서지",
+        "style": "이방인",
+        "description": [
+            "<strong>파워 서지</strong> 발동 후 크리티컬 확률+35%, 3초간 지속"
+        ]
+    },
+    {
+        "image": "beret.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "베레모"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Beret"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "531",
+                "res": "21",
+                "psi": "83"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "유산탄",
+        "style": "방랑자",
+        "description": [
+            "유산탄 명중 부위+1"
+        ]
+    },
+    {
+        "image": "blast-helmet.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "블래스트 헬멧"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "BLAST HELMET"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "472",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "블래스트 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "blast-suit-set"
+    },
+    {
+        "image": "savior-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "세이버 세트"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Savior Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "세이버 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "shelterer-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "수호자 세트"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Shelterer Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "쉘터드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "scout-hood.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "스카우트 모자"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "SCOUT HOOD"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "472",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "스카우트 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "scout-set"
+    },
+    {
+        "image": "agent-helmet.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "에이전트 헬멧"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "AGENT HELMET"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "531",
+                "res": "21",
+                "psi": "83"
+            }
+        },
+        "type": "set",
+        "set": "에이전트 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null,
+        "map": "agent-set"
+    },
+    {
+        "image": "lonewolf-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "울프 후드"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Lonewolf Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "울프 세트",
+        "specialType": null,
+        "style": "워리어",
+        "description": null
+    },
+    {
+        "image": "cage-helmet.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "케이지 헬멧"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Cage Helmet"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "유산탄",
+        "style": "헌터",
+        "description": [
+            "유산탄 명중 횟수+1"
+        ]
+    },
+    {
+        "image": "falcon-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "팔콘 모자"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Falcon Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "531",
+                "res": "21",
+                "psi": "83"
+            }
+        },
+        "type": "set",
+        "set": "팔콘 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "falcon-set"
+    },
+    {
+        "image": "stormweaver-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "허리케인 세트"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Stormweaver Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "590",
+                "res": "21",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "사이클론 세트",
+        "specialType": null,
+        "style": "이방인",
+        "description": null
+    },
+    {
+        "image": "heavy-duty-clothing-set.jpg",
+        "ko": {
+            "category": "헬멧",
+            "name": "헤비 듀티 헬멧"
+        },
+        "en": {
+            "category": "Helmet",
+            "name": "Heavy Duty Clothing Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "531",
+                "res": "21",
+                "psi": "83"
+            }
+        },
+        "type": "set",
+        "set": "헤비 듀티 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "heavy-duty-clothing-set"
+    },
+    {
+        "image": "dust-mask.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "더스트 스톰 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Dust Mask"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "패스트 거너",
+        "style": "이방인",
+        "description": [
+            "<strong>패스트 거너</strong> 발동 시, 50% 확률로 자동 장전 1발 총알"
+        ]
+    },
+    {
+        "image": "renegade-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "디펙터 세트"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Renegade Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "set",
+        "set": "디펙터 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "raid-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "레이드 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Raid Set"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "236",
+                "res": "28",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "레이드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "bastille-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "바스티유 세트"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Bastille Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "set",
+        "set": "바스티유 세트",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "blast-suit.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "블래스트 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Blast Suit"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "236",
+                "res": "28",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "블래스트 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "blast-suit-set"
+    },
+    {
+        "image": "savior-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "세이버 세트"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Savior Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "set",
+        "set": "세이버 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "shelterer-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "수호자 세트"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Shelterer Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "set",
+        "set": "쉘터드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "scout-mask.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "스카우트 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "SCOUT MASK"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "236",
+                "res": "28",
+                "psi": "92"
+            }
+        },
+        "type": "set",
+        "set": "스카우트 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "scout-set"
+    },
+    {
+        "image": "agent-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "에이전트 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Agent Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "266",
+                "res": "28",
+                "psi": "104"
+            }
+        },
+        "type": "set",
+        "set": "에이전트 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null,
+        "map": "agent-set"
+    },
+    {
+        "image": "oasis-mask.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "오아시스 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Oasis Mask"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "패스트 거너",
+        "style": "방랑자",
+        "description": [
+            "<strong>패스트 거너</strong> 중첩 가능 스택 수+10",
+            "스택 당 대미지+1%"
+        ]
+    },
+    {
+        "image": "lonewolf-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "울프 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Lonewolf Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "set",
+        "set": "울프 세트",
+        "specialType": null,
+        "style": "워리어",
+        "description": null
+    },
+    {
+        "image": "precise-shot-mask.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "정밀 사격 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Precise Shot Mask"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "266",
+                "res": "28",
+                "psi": "104"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "패스트 거너",
+        "style": "방랑자",
+        "description": [
+            "패스트 거너가 발동할 때마다 장전 속도+25%, 최대 10스택 중첩, 장전 또는 총기 교체 후 소멸"
+        ],
+        "map": "precise-shot-mask"
+    },
+    {
+        "image": "falcon-mask.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "팔콘 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "FALCON MASK"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "266",
+                "res": "28",
+                "psi": "104"
+            }
+        },
+        "type": "set",
+        "set": "팔콘 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "falcon-set"
+    },
+    {
+        "image": "test-subject-mask.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "피실험자 마스크"
+        },
+        "en": {
+            "category": "Face",
+            "name": "TEST SUBJECT MASK"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "207",
+                "res": "28",
+                "psi": "81"
+            }
+        },
+        "type": "set",
+        "set": "연구 대상",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "stormweaver-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "허리케인 세트"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Stormweaver Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "295",
+                "res": "28",
+                "psi": "115"
+            }
+        },
+        "type": "set",
+        "set": "사이클론 세트",
+        "specialType": null,
+        "style": "이방인",
+        "description": null
+    },
+    {
+        "image": "heavy-duty-clothing-set.jpg",
+        "ko": {
+            "category": "얼굴",
+            "name": "헤비 듀티 세트"
+        },
+        "en": {
+            "category": "Face",
+            "name": "Heavy Duty Clothing Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "266",
+                "res": "28",
+                "psi": "104"
+            }
+        },
+        "type": "set",
+        "set": "헤비 듀티 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "heavy-duty-clothing-set"
+    },
+    {
+        "image": "renegade-jacket.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "디펙터 외투"
+        },
+        "en": {
+            "category": "Top",
+            "name": "RENEGADE JACKET"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "set",
+        "set": "디펙터 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "shaman-vulture-top.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "샤먼 벌처 상의"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Shaman Vulture Top"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "불안정한 다이너마이트",
+        "style": "오퍼레이터",
+        "description": [
+            "<strong>불안정 다이너마이트</strong> 발동 후 크리티컬 확률+35%, 3초간 지속"
+        ]
+    },
+    {
+        "image": "rustic-jacket.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "러스틱 상의"
+        },
+        "en": {
+            "category": "Top",
+            "name": "RUSTIC JACKET"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "1074",
+                "res": "28",
+                "psi": "45"
+            }
+        },
+        "type": "set",
+        "set": "러스틱 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "raid-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "레이드 상의"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Raid Set"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "1227",
+                "res": "28",
+                "psi": "52"
+            }
+        },
+        "type": "set",
+        "set": "레이드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "bastille-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "바스티유 세트"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Bastille Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "set",
+        "set": "바스티유 세트",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "blast-suit.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "블래스트 상의"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Blast Suit"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "1227",
+                "res": "28",
+                "psi": "52"
+            }
+        },
+        "type": "set",
+        "set": "블래스트 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "blast-suit-set"
+    },
+    {
+        "image": "explosive-front-top.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "블래스트 프론트 상의"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Explosive Front Top"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "불안정한 다이너마이트",
+        "style": "메타 휴먼",
+        "description": [
+            "<strong>불안정 다이너마이트</strong> +0.3초 연장",
+            "불안정 다이너마이트 대미지 계수+30%"
+        ]
+    },
+    {
+        "image": "savior-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "세이버 세트"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Savior Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "set",
+        "set": "세이버 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "shelterer-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "수호자 세트"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Shelterer Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "set",
+        "set": "쉘터드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "scout-jacket.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "스카우트 외투"
+        },
+        "en": {
+            "category": "Top",
+            "name": "SCOUT JACKET"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "1227",
+                "res": "28",
+                "psi": "52"
+            }
+        },
+        "type": "set",
+        "set": "스카우트 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "scout-set"
+    },
+    {
+        "image": "agent-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "에이전트 상의"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Agent Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1381",
+                "res": "28",
+                "psi": "58"
+            }
+        },
+        "type": "set",
+        "set": "에이전트 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null,
+        "map": "agent-set"
+    },
+    {
+        "image": "lonewolf-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "울프 세트"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Lonewolf Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "set",
+        "set": "울프 세트",
+        "specialType": null,
+        "style": "워리어",
+        "description": null
+    },
+    {
+        "image": "doyens-cloak.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "원로의 망토"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Doyen's Cloak"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "서리의 선풍",
+        "style": "이방인",
+        "description": [
+            "동결 종료 후 얼음 대미지를 입힘, 대미지는 동결 기간 자신이 해당 대상에게 입힌 총 대미지의 50%"
+        ]
+    },
+    {
+        "image": "stealth-walker-wrap.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "은밀한 자객 로브"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Stealth Walker Wrap"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "서리의 선풍",
+        "style": "워리어",
+        "description": [
+            "<strong>프로스트 윈드</strong> 중심에 빙핵을 생성하여 120%프로스트 윈드 범위 내의 적 지속 유인"
+        ]
+    },
+    {
+        "image": "sleek-leather-jacket.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "조잡한 가죽 옷"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Sleek Leather Jacket"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1381",
+                "res": "28",
+                "psi": "58"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "불안정한 다이너마이트",
+        "style": "메타 휴먼",
+        "description": [
+            "<strong>불안정 다이너마이트</strong>와 유저 사이 거리 1미터 초과당 대미지+2%"
+        ]
+    },
+    {
+        "image": "falcon-jacket.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "팔콘 세트"
+        },
+        "en": {
+            "category": "Top",
+            "name": "FALCON JACKET"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1381",
+                "res": "28",
+                "psi": "58"
+            }
+        },
+        "type": "set",
+        "set": "팔콘 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "falcon-set"
+    },
+    {
+        "image": "frost-tactical-vest.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "프로스트 전술 조끼"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Frost Tactical Vest"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1381",
+                "res": "28",
+                "psi": "58"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "서리의 선풍",
+        "style": "메타 휴먼",
+        "description": [
+            "<strong>프로스트 윈드</strong> 생성 시 고드름을 만들어 100%의 초감각의 프리징 원소 대미지를 입힘"
+        ],
+        "map": "frost-tactical-vest"
+    },
+    {
+        "image": "test-subject-top.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "피실험자 상의"
+        },
+        "en": {
+            "category": "Top",
+            "name": "TEST SUBJECT TOP"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "1074",
+                "res": "28",
+                "psi": "45"
+            }
+        },
+        "type": "set",
+        "set": "연구 대상",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "stormweaver-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "허리케인 세트"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Stormweaver Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1534",
+                "res": "28",
+                "psi": "64"
+            }
+        },
+        "type": "set",
+        "set": "사이클론 세트",
+        "specialType": null,
+        "style": "이방인",
+        "description": null
+    },
+    {
+        "image": "heavy-duty-clothing-set.jpg",
+        "ko": {
+            "category": "상의",
+            "name": "헤비 듀티 세트"
+        },
+        "en": {
+            "category": "Top",
+            "name": "Heavy Duty Clothing Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1381",
+                "res": "28",
+                "psi": "58"
+            }
+        },
+        "type": "set",
+        "set": "헤비 듀티 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "heavy-duty-clothing-set"
+    },
+    {
+        "image": "renegade-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "디펙터 세트"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Renegade Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "디펙터 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "rustic-pants.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "러스틱 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "RUSTIC PANTS"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "991",
+                "res": "21",
+                "psi": "52"
+            }
+        },
+        "type": "set",
+        "set": "러스틱 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "raid-pants.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "레이드 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "RAID PANTS"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "1133",
+                "res": "21",
+                "psi": "59"
+            }
+        },
+        "type": "set",
+        "set": "레이드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "bastille-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "바스티유 세트"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Bastille Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "71"
+            }
+        },
+        "type": "set",
+        "set": "바스티유 세트",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "blast-suit.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "블래스트 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Blast Suit"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "1133",
+                "res": "21",
+                "psi": "59"
+            }
+        },
+        "type": "set",
+        "set": "블래스트 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "blast-suit-set"
+    },
+    {
+        "image": "sharp-edge-pants.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "블레이드 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Sharp Edge Pants"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "바운스",
+        "style": "헌터",
+        "description": [
+            "바운스 발동 횟수+1"
+        ]
+    },
+    {
+        "image": "savior-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "세이버 세트"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Savior Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "세이버 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "shelterer-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "수호자 세트"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Shelterer Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "쉘터드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "scout-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "스카우트 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Scout Set"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "1133",
+                "res": "21",
+                "psi": "59"
+            }
+        },
+        "type": "set",
+        "set": "스카우트 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "scout-set"
+    },
+    {
+        "image": "agent-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "에이전트 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Agent Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1274",
+                "res": "21",
+                "psi": "66"
+            }
+        },
+        "type": "set",
+        "set": "에이전트 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null,
+        "map": "agent-set"
+    },
+    {
+        "image": "lonewolf-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "울프 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Lonewolf Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "울프 세트",
+        "specialType": null,
+        "style": "워리어",
+        "description": null
+    },
+    {
+        "image": "tattoo-pants.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "찌르기 춤 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Tattoo Pants"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "바운스",
+        "style": "오퍼레이터",
+        "description": [
+            "<strong>바운스</strong> 명중 후 100% 확률로 반사 발동, 반사로 100%의 바운스 대미지를 입힘"
+        ]
+    },
+    {
+        "image": "falcon-pants.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "팔콘 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "FALCON PANTS"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1274",
+                "res": "21",
+                "psi": "66"
+            }
+        },
+        "type": "set",
+        "set": "팔콘 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "falcon-set"
+    },
+    {
+        "image": "test-subject-pants.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "피실험자 하의"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "TEST SUBJECT PANTS"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "991",
+                "res": "21",
+                "psi": "52"
+            }
+        },
+        "type": "set",
+        "set": "연구 대상",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "hot-dog-shorts.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "핫도그 반바지"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "HOT DOG SHORTS"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1274",
+                "res": "21",
+                "psi": "66"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "바운스",
+        "style": "워리어",
+        "description": [
+            "바운스 타깃 수량+1"
+        ],
+        "map": "hot-dog-shorts"
+    },
+    {
+        "image": "stormweaver-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "허리케인 세트"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Stormweaver Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1416",
+                "res": "21",
+                "psi": "74"
+            }
+        },
+        "type": "set",
+        "set": "사이클론 세트",
+        "specialType": null,
+        "style": "이방인",
+        "description": null
+    },
+    {
+        "image": "heavy-duty-clothing-set.jpg",
+        "ko": {
+            "category": "하의",
+            "name": "헤비 듀티 세트"
+        },
+        "en": {
+            "category": "Bottoms",
+            "name": "Heavy Duty Clothing Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1274",
+                "res": "21",
+                "psi": "66"
+            }
+        },
+        "type": "set",
+        "set": "헤비 듀티 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "heavy-duty-clothing-set"
+    },
+    {
+        "image": "bbq-gloves.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "BBQ 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "BBQ Gloves"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "797",
+                "res": "21",
+                "psi": "62"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "플레임",
+        "style": "이방인",
+        "description": [
+            "<strong>플레임</strong>스택 수가 많을 수록 대미지 발동 빈도 상승, 최대 100% 증가"
+        ],
+        "map": "bbq-gloves"
+    },
+    {
+        "image": "renegade-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "디펙터 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Renegade Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "set",
+        "set": "디펙터 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "rustic-gloves.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "러스틱 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "RUSTIC GLOVES"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "620",
+                "res": "21",
+                "psi": "48"
+            }
+        },
+        "type": "set",
+        "set": "러스틱 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "raid-gloves.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "레이드 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "RAID GLOVES"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "708",
+                "res": "21",
+                "psi": "55"
+            }
+        },
+        "type": "set",
+        "set": "레이드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "bastille-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "바스티유 세트"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Bastille Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "set",
+        "set": "바스티유 세트",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "hardy-gloves.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "베테랑 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Hardy Gloves"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "플레임",
+        "style": "방랑자",
+        "description": [
+            "<strong>플레임</strong>최대 스택 도달 시 즉시 폭발, 300%초감각 범위에 블레이즈 대미지를 입히고 <strong>플레임 삭제</strong>"
+        ]
+    },
+    {
+        "image": "blast-gloves.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "블래스트 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "BLAST GLOVES"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "708",
+                "res": "21",
+                "psi": "55"
+            }
+        },
+        "type": "set",
+        "set": "블래스트 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "blast-suit-set"
+    },
+    {
+        "image": "savior-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "세이버 세트"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Savior Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "set",
+        "set": "세이버 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "shelterer-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "수호자 세트"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Shelterer Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "set",
+        "set": "쉘터드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "scout-gloves.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "스카우트 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "SCOUT GLOVES"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "708",
+                "res": "21",
+                "psi": "55"
+            }
+        },
+        "type": "set",
+        "set": "스카우트 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "scout-set"
+    },
+    {
+        "image": "agent-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "에이전트 세트"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Agent Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "797",
+                "res": "21",
+                "psi": "62"
+            }
+        },
+        "type": "set",
+        "set": "에이전트 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null,
+        "map": "agent-set"
+    },
+    {
+        "image": "lonewolf-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "울프 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Lonewolf Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "set",
+        "set": "울프 세트",
+        "specialType": null,
+        "style": "워리어",
+        "description": null
+    },
+    {
+        "image": "drifter-gauntlets.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "유랑자 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Drifter Gauntlets"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "플레임",
+        "style": "헌터",
+        "description": [
+            "자신이 <strong>플레임</strong> 상태일 시 총기 대미지+15%, 크리티컬 확률+15%"
+        ]
+    },
+    {
+        "image": "falcon-gloves.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "팔콘 장갑"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "FALCON GLOVES"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "797",
+                "res": "21",
+                "psi": "62"
+            }
+        },
+        "type": "set",
+        "set": "팔콘 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "falcon-set"
+    },
+    {
+        "image": "stormweaver-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "허리케인 세트"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Stormweaver Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "885",
+                "res": "21",
+                "psi": "69"
+            }
+        },
+        "type": "set",
+        "set": "사이클론 세트",
+        "specialType": null,
+        "style": "이방인",
+        "description": null
+    },
+    {
+        "image": "heavy-duty-clothing-set.jpg",
+        "ko": {
+            "category": "장갑",
+            "name": "헤비 듀티 세트"
+        },
+        "en": {
+            "category": "Gloves",
+            "name": "Heavy Duty Clothing Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "797",
+                "res": "21",
+                "psi": "62"
+            }
+        },
+        "type": "set",
+        "set": "헤비 듀티 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "heavy-duty-clothing-set"
+    },
+    {
+        "image": "leather-boots.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "가죽 부츠"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Leather Boots"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1062",
+                "res": "21",
+                "psi": "41"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "리버스 워페어",
+        "style": "방랑자",
+        "description": [
+            "리버스 워페어 상태일 시 초당 HP 2.5% 회복, HP가 50%보다 낮을 시 회복 효과 배로 증가"
+        ],
+        "map": "leather-boots"
+    },
+    {
+        "image": "hard-tactical-boots.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "경질 전술화"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Hard Tactical Boots"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "",
+        "style": "오퍼레이터",
+        "description": [
+            "헤비 상태일 시 초당 1발 총알 자동 장전, 발사 속도 15% 증가"
+        ]
+    },
+    {
+        "image": "seasoned-hunter-leather-boots.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "노련한 사냥꾼 부츠"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Seasoned Hunter Leather Boots"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "헌터 마크",
+        "style": "헌터",
+        "description": [
+            "<strong>헌터 마크</strong> 발동 후, 이어지는 1발 총알은 마크가 없는 다른 유닛에게 명중하고, 약점이 아닌 부위 명중 시에도 약점 명중으로 간주 및 헌터 마크 유닛의 약점 대미지+30%"
+        ]
+    },
+    {
+        "image": "renegade-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "디펙터 신발"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Renegade Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "set",
+        "set": "디펙터 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "rustic-shoes.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "러스틱 부츠"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "RUSTIC SHOES"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "hp": "826",
+                "res": "21",
+                "psi": "32"
+            }
+        },
+        "type": "set",
+        "set": "러스틱 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "raid-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "레이드 신발"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Raid Set"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "944",
+                "res": "21",
+                "psi": "37"
+            }
+        },
+        "type": "set",
+        "set": "레이드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "bastille-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "바스티유 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Bastille Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "set",
+        "set": "바스티유 세트",
+        "specialType": null,
+        "style": "메타 휴먼",
+        "description": null
+    },
+    {
+        "image": "blast-shoes.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "블래스트 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "BLAST SHOES"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "944",
+                "res": "21",
+                "psi": "37"
+            }
+        },
+        "type": "set",
+        "set": "블래스트 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "blast-suit-set"
+    },
+    {
+        "image": "savior-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "세이버 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Savior Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "set",
+        "set": "세이버 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "shelterer-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "수호자 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Shelterer Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "set",
+        "set": "쉘터드 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "scout-shoes.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "스카우트 신발"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "SCOUT SHOES"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "hp": "944",
+                "res": "21",
+                "psi": "37"
+            }
+        },
+        "type": "set",
+        "set": "스카우트 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "scout-set"
+    },
+    {
+        "image": "agent-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "에이전트 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Agent Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1062",
+                "res": "21",
+                "psi": "41"
+            }
+        },
+        "type": "set",
+        "set": "에이전트 세트",
+        "specialType": null,
+        "style": "방랑자",
+        "description": null,
+        "map": "agent-set"
+    },
+    {
+        "image": "lonewolf-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "울프 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Lonewolf Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "set",
+        "set": "울프 세트",
+        "specialType": null,
+        "style": "워리어",
+        "description": null
+    },
+    {
+        "image": "tactical-combat-shoes.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "전술 전투화"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Tactical Combat Shoes"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "헌터 마크",
+        "style": "이방인",
+        "description": [
+            "표식 상태인 적 명중 시 40% 확률로 총알 1발 자동 장전, HP 1% 회복"
+        ]
+    },
+    {
+        "image": "cowboy-boots.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "카우보이 부츠"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Cowboy Boots"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "리버스 워페어",
+        "style": "방랑자",
+        "description": [
+            "리버스 워페어는 자신에게만 적용되며 대미지+25%"
+        ]
+    },
+    {
+        "image": "earthly-boots.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "트레킹 부츠"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Earthly Boots"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1062",
+                "res": "21",
+                "psi": "41"
+            }
+        },
+        "type": "key",
+        "set": null,
+        "specialType": "헌터 마크",
+        "style": "방랑자",
+        "description": [
+            "표식 상태인 적에 대한 대미지+30%"
+        ],
+        "map": "earthly-boots"
+    },
+    {
+        "image": "falcon-shoes.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "팔콘 신발"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "FALCON SHOES"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1062",
+                "res": "21",
+                "psi": "41"
+            }
+        },
+        "type": "set",
+        "set": "팔콘 세트",
+        "specialType": null,
+        "style": "헌터",
+        "description": null,
+        "map": "falcon-set"
+    },
+    {
+        "image": "stormweaver-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "허리케인 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Stormweaver Set"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "hp": "1180",
+                "res": "21",
+                "psi": "46"
+            }
+        },
+        "type": "set",
+        "set": "사이클론 세트",
+        "specialType": null,
+        "style": "이방인",
+        "description": null
+    },
+    {
+        "image": "heavy-duty-clothing-set.jpg",
+        "ko": {
+            "category": "신발",
+            "name": "헤비 듀티 세트"
+        },
+        "en": {
+            "category": "Shoes",
+            "name": "Heavy Duty Clothing Set"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "hp": "1062",
+                "res": "21",
+                "psi": "41"
+            }
+        },
+        "type": "set",
+        "set": "헤비 듀티 세트",
+        "specialType": null,
+        "style": "오퍼레이터",
+        "description": null,
+        "map": "heavy-duty-clothing-set"
+    }
+]

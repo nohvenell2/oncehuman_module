@@ -72,8 +72,15 @@
     color: #e0e0e0;
 }
 
-.removeButton {
+.optionValue {
     margin-left: auto;
+    font-size: 0.95rem;
+    color: #e0e0e0;
+    font-weight: 500;
+}
+
+.removeButton {
+    margin-left: 0.75rem;
     padding: 4px;
     background: none;
     border: none;
@@ -198,7 +205,7 @@
     
     span {
         color: #e0e0e0;
-        font-size: 0.95rem;
+        font-size: 1.2rem;
     }
 }
 

@@ -5,6 +5,7 @@ import styles from './page.module.scss';
 import { Equipment, EquipmentSet } from '@/types/item';
 import ItemSlot from '@/components/ItemSlot';
 import { EQUIPMENT_SLOTS } from '@/constants/items';
+import StatSummary from '@/components/StatSummary';
 
 /**
  * OnceHuman 게임의 아이템 세팅 페이지
@@ -135,6 +136,8 @@ export default function Home() {
 
             {currentSet && (
                 <>
+                    <StatSummary equipment={currentSet.equipment} />
+                    
                     <div className={styles.equipmentSection}>
                         <h2>무기</h2>
                         <div className={`${styles.equipmentGrid} ${styles.weapons}`}>

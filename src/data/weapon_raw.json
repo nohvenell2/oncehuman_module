@@ -1,0 +1,1891 @@
+[
+    {
+        "image": "jaws.jpg",
+        "ko": {
+            "category": "권총",
+            "subcategory": "데저트 이글",
+            "name": "데저트 이글 - 백상아리"
+        },
+        "en": {
+            "category": "Pistol",
+            "subcategory": "DE.50",
+            "name": "JAWS"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "751",
+                "fireRate": "190",
+                "magazine": "8",
+                "critRate": "6",
+                "weakDMG": "60",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [
+            "트랜스",
+            "단체"
+        ],
+        "specialType": "불안정한 다이너마이트",
+        "damageType": null,
+        "style": "메타 휴먼",
+        "description": [
+            "4회 명중할 때마다 불안정 <strong>다이너마이트</strong> 발동",
+            "크리티컬 발동 시 명중 계수+1",
+            "약점 명중 후, 폭발 원소 대미지+30%, 8초간 지속",
+            "불안정 다이너마이트 크리티컬 발동 가능, 크리티컬 확률+25%"
+        ]
+    },
+    {
+        "image": "wildfire.jpg",
+        "ko": {
+            "category": "권총",
+            "subcategory": "데저트 이글",
+            "name": "데저트 이글 - 블루 플레임"
+        },
+        "en": {
+            "category": "Pistol",
+            "subcategory": "DE.50",
+            "name": "WILDFIRE"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "675",
+                "fireRate": "190",
+                "magazine": "8",
+                "critRate": "6",
+                "weakDMG": "60",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [
+            "총기",
+            "보조"
+        ],
+        "specialType": "헌터 마크",
+        "damageType": null,
+        "style": "메타 휴먼",
+        "description": [
+            "명중 시 60% 확률로 <strong>헌터 마크</strong> 발동",
+            "표식을 지닌 적 명중 시 80% 확률로 <strong>헌터 마크</strong>이 15m 범위 내 1명의 적까지 확산, 타깃이 없을 경우 총기 대미지+25%, 10초간 지속",
+            "표식을 지닌 적의 약점 명중 시 대미지+3%, 10초간 지속, 최대 3스택 중첩"
+        ]
+    },
+    {
+        "image": "de50.jpg",
+        "ko": {
+            "category": "권총",
+            "subcategory": "데저트 이글",
+            "name": "데저트 이글"
+        },
+        "en": {
+            "category": "Pistol",
+            "subcategory": "DE.50",
+            "name": "DE50"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "599",
+                "fireRate": "190",
+                "magazine": "7",
+                "critRate": "6",
+                "weakDMG": "60",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [],
+        "specialType": null,
+        "damageType": null,
+        "style": "방랑자",
+        "description": []
+    },
+    {
+        "image": "hammerhead-shark.jpg",
+        "ko": {
+            "category": "권총",
+            "subcategory": "리볼버",
+            "name": "리볼버 - 귀상어"
+        },
+        "en": {
+            "category": "Pistol",
+            "subcategory": "R500",
+            "name": "HAMMERHEAD SHARK"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "894",
+                "fireRate": "145",
+                "magazine": "5",
+                "critRate": "4",
+                "weakDMG": "65",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "파워 서지",
+        "damageType": null,
+        "style": "메타 휴먼",
+        "description": [
+            "약점 명중 시 80% 확률로 <strong>파워 서지</strong> 발동",
+            "파워 서지 상태의 적 명중 시 타깃 주변의 모든 파워 서지 상태인 적에게 100%의 초감각 강도 플라즈마 원소 대미지를 입힘",
+            "플라즈마 원소 대미지로 4회의 피해를 입힐 때마다 자동으로 총알 1발 장전"
+        ]
+    },
+    {
+        "image": "hunter.jpg",
+        "ko": {
+            "category": "권총",
+            "subcategory": "리볼버",
+            "name": "리볼버 - 헌터 500"
+        },
+        "en": {
+            "category": "Pistol",
+            "subcategory": "R500",
+            "name": "R500 - HUNTER"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "796",
+                "fireRate": "145",
+                "magazine": "5",
+                "critRate": "4",
+                "weakDMG": "65",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "패스트 거너",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "명중 시 30% 확률로 <strong>패스트 거너</strong> 발동",
+            "패스트 거너 발동 후 총기 대미지+30%, 3초간 지속"
+        ],
+        "map": "hunter"
+    },
+    {
+        "image": "memento.jpg",
+        "ko": {
+            "category": "권총",
+            "subcategory": "리볼버",
+            "name": "리볼버 - 이별 선물"
+        },
+        "en": {
+            "category": "Pistol",
+            "subcategory": "R500",
+            "name": "R500 - Memento"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "994",
+                "fireRate": "145",
+                "magazine": "5",
+                "critRate": "4",
+                "weakDMG": "65",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "패스트 거너",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "명중 시 36% 확률로 <strong>패스트 거너</strong> 발동, 약점 명중 시, 확률 두배",
+            "<strong>패스트 거너</strong> 발동 시, 1개 총알 자동 장전",
+            "발사 시마다 40% 확률로 1개 총알 추가 소모",
+            "총알 추가 소모 시, 대미지+80%"
+        ]
+    },
+    {
+        "image": "dusty.jpg",
+        "ko": {
+            "category": "권총",
+            "subcategory": "글록",
+            "name": "Glock - 그래블"
+        },
+        "en": {
+            "category": "Pistol",
+            "subcategory": "G17",
+            "name": "G17 - Dusty"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "313",
+                "fireRate": "145",
+                "magazine": "5",
+                "critRate": "4",
+                "weakDMG": "65",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "유산탄",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "약점 명중 시 55% 확률로 <strong>유산탄</strong> 발동",
+            "<strong>유산탄</strong> 발동 시 명중 부위를 제외하지 않음",
+            "약점 대미지+15%"
+        ],
+        "map": "dusty"
+    },
+    {
+        "image": "dual-fury.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "더블 배럴",
+            "name": "배럴 - 듀얼 퓨리"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "DBSG",
+            "name": "DBSG - DUAL FURY"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "325x6",
+                "fireRate": "180",
+                "magazine": "2",
+                "critRate": "10",
+                "weakDMG": "25",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "플레임",
+        "damageType": null,
+        "style": "워리어",
+        "description": [
+            "탄창 내 마지막 1발 명중 시 1스택의 <strong>플레임</strong> 발동, 모든 총알 명중 시 추가로 1스택 발동",
+            "모든 총알 4회 명중 후, 자신은 특수 플레임 상태가 되어 HP 소량 감소(HP는 0보다 낮을 수 없음), 대미지+20%, 취약+10%, 8초간 지속",
+            "모든 총알이 플레임 상태인 적 명중 시 50% 확률로 총알 1발 자동 회복"
+        ],
+        "map": "dual-fury"
+    },
+    {
+        "image": "huntersman.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "더블 배럴",
+            "name": "배럴 - 노련한 사냥꾼"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "DBSG",
+            "name": "OLD HUNTERSMAN"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "289x6",
+                "fireRate": "180",
+                "magazine": "2",
+                "critRate": "10",
+                "weakDMG": "25",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기",
+            "보조"
+        ],
+        "specialType": "헌터 마크",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "명중 시 35% 확률로 <strong>헌터 마크</strong> 발동",
+            "+% 헌터 마크20 타깃에 대한 보너스"
+        ]
+    },
+    {
+        "image": "dbsg.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "더블 배럴",
+            "name": "배럴"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "DBSG",
+            "name": "DBSG"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "289x6",
+                "fireRate": "180",
+                "magazine": "2",
+                "critRate": "10",
+                "weakDMG": "25",
+                "critDMG": "30"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "doombringer.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "더블 배럴",
+            "name": "배럴 - 파멸의 전조"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "DBSG",
+            "name": "DBSG - Doombringer FRAG"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "362x6",
+                "fireRate": "180",
+                "magazine": "2",
+                "critRate": "10",
+                "weakDMG": "25",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기",
+            "보조"
+        ],
+        "specialType": "헌터 마크",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "명중 시 30% 확률로 <strong>헌터 마크</strong> 발동, 5미터 내 명중시 확률 80%까지 증가",
+            "마크 상태인 적 처치 시 대미지+6%, 60초간 지속, 최대 5스택 중첩",
+            "<strong>헌터 마크</strong> 발동 후 대미지 면역+5%, 8초간 지속, 최대 4스택 중첩",
+            "마크 상태인 적에 대한 크리티컬 확률+30%"
+        ]
+    },
+    {
+        "image": "sandstorm.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "M870",
+            "name": "M870 - 더스트 스톰"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "S870",
+            "name": "S870 - Sandstorm"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "280x6",
+                "fireRate": "80",
+                "magazine": "8",
+                "critRate": "10",
+                "weakDMG": "25",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기",
+            "보조"
+        ],
+        "specialType": "리버스 워페어",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "전환 후 <strong>리버스 워페어</strong> 발동, 쿨타임 20초",
+            "<strong>리버스 워페어</strong> 기간 동안 총기 대미지+10%"
+        ],
+        "map": "sandstorm"
+    },
+    {
+        "image": "raining-cash.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "DP12",
+            "name": "DP12 - 머니 샤워"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "DB12",
+            "name": "DB12 - Raining Cash"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "322x5",
+                "fireRate": "105",
+                "magazine": "12",
+                "critRate": "8",
+                "weakDMG": "20",
+                "critDMG": "28"
+            }
+        },
+        "keywords": [
+            "총기",
+            "보조"
+        ],
+        "specialType": "리버스 워페어",
+        "damageType": null,
+        "style": "워리어",
+        "description": [
+            "장전 시 <strong>리버스 워페어</strong> 발동, 쿨타임 10초",
+            "리버스 워페어 상태 유지 시간이 길수록 대미지 상승, 최대+40%",
+            "<strong>리버스 워페어</strong> 상태일 시 크리티컬 확률+30%",
+            "<strong>리버스 워페어</strong> 상태일 시 대미지 면역+30%"
+        ]
+    },
+    {
+        "image": "backfire.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "DP12",
+            "name": "DP12 - 백래쉬"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "DB12",
+            "name": "DB12 - Backfire"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "289x5",
+                "fireRate": "105",
+                "magazine": "12",
+                "critRate": "8",
+                "weakDMG": "20",
+                "critDMG": "28"
+            }
+        },
+        "keywords": [
+            "트랜스",
+            "단체"
+        ],
+        "specialType": "서리의 선풍",
+        "damageType": null,
+        "style": "메타 휴먼",
+        "description": [
+            "5번째 명중 시 <strong>프로스트 윈드</strong> 발동",
+            "총기로 프로스트 윈드 내의 적 1회 명중 후, 적 3초간 동결(동결 후 4초 동안 다시 동결되지 않음)",
+            "동결된 적에게 입히는 대미지+60%"
+        ]
+    },
+    {
+        "image": "corrosion.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "AA12",
+            "name": "AA12- 부식"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "ACS12",
+            "name": "ACS12 - Corrosion"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "210x5",
+                "fireRate": "180",
+                "magazine": "18",
+                "critRate": "8",
+                "weakDMG": "15",
+                "critDMG": "27"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "파워 서지",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "명중 시 70% 확률로 <strong>파워 서지</strong>가 발동되지만, 파워서지 재적용 불가",
+            "<strong>파워 서지</strong>는 크리티컬 발동 가능. <strong>파워 서지</strong> 크리티컬 확률+15%",
+            "<strong>파워 서지</strong> 발동 후, 6초간 <strong>파워 서지</strong> 크리티컬 대미지+15%(최대 10스택)",
+            "파워 서지 대미지 계수+15%"
+        ]
+    },
+    {
+        "image": "netherworld.jpg",
+        "ko": {
+            "category": "산탄총",
+            "subcategory": "AA12",
+            "name": "AA12- 황천"
+        },
+        "en": {
+            "category": "Shotgun",
+            "subcategory": "ACS12",
+            "name": "ACS12 - Netherworld"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "188x5",
+                "fireRate": "180",
+                "magazine": "18",
+                "critRate": "8",
+                "weakDMG": "15",
+                "critDMG": "27"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "패스트 거너",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "모든 총알 명중 시 50% 확률로 <strong>패스트 거너</strong> 발동",
+            "패스트 거너 2회 발동 후, 1번째 사격 시 총알 1발 소모 및 총알 파편 5발 발사",
+            "빈 탄창 장전 후, 기존 12발 총알 대미지+20%"
+        ]
+    },
+    {
+        "image": "div-evo.jpg",
+        "ko": {
+            "category": "기관단총",
+            "subcategory": "MP7",
+            "name": "MP7- 분기 진화"
+        },
+        "en": {
+            "category": "SMG",
+            "subcategory": "MPS7",
+            "name": "MPS7 - DIV-EVO"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "170",
+                "fireRate": "850",
+                "magazine": "35",
+                "critRate": "8",
+                "weakDMG": "50",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "유산탄",
+        "damageType": null,
+        "style": "이방인",
+        "description": [
+            "명중 시 25% 확률로 <strong>유산탄</strong> 발동",
+            "임의의 대미지로 처치 후 유산탄 발동 확률 80% 증가, 12초간 지속",
+            "약점 명중 시, 유산탄 선택 부위 수량+1, 4초간 지속"
+        ],
+        "map": "div-evo"
+    },
+    {
+        "image": "mps7.jpg",
+        "ko": {
+            "category": "기관단총",
+            "subcategory": "MP7",
+            "name": "MP7"
+        },
+        "en": {
+            "category": "SMG",
+            "subcategory": "MPS7",
+            "name": "MPS7"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "152",
+                "fireRate": "850",
+                "magazine": "35",
+                "critRate": "8",
+                "weakDMG": "50",
+                "critDMG": "30"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "outer-space.jpg",
+        "ko": {
+            "category": "기관단총",
+            "subcategory": "MP7",
+            "name": "MP7 - 아우터 스페이스"
+        },
+        "en": {
+            "category": "SMG",
+            "subcategory": "MPS7",
+            "name": "MPS7 - Outer Space"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "192",
+                "fireRate": "850",
+                "magazine": "35",
+                "critRate": "8",
+                "weakDMG": "50",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "파워 서지",
+        "damageType": null,
+        "style": "이방인",
+        "description": [
+            "명중 시 25% 확률로 <strong>파워 서지</strong> 발동",
+            "처치 후, <strong>파워 서지</strong> 발동 계수+30%(무기 발동 확률 기반), 12초 지속",
+            "장전 후, <strong>파워 서지</strong> 발동 계수+40%(무기 발동 확률 기반), 3초 지속",
+            "<strong>파워 서지</strong> 발동 계수+40%(무기 발동 계수 기반)"
+        ]
+    },
+    {
+        "image": "blue-tiger.jpg",
+        "ko": {
+            "category": "기관단총",
+            "subcategory": "MP5",
+            "name": "MP5 - 블루 타이거"
+        },
+        "en": {
+            "category": "SMG",
+            "subcategory": "MPS5",
+            "name": "MPS5 - Blue Tiger"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "173",
+                "fireRate": "750",
+                "magazine": "30",
+                "critRate": "8",
+                "weakDMG": "55",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기",
+            "단체"
+        ],
+        "specialType": "바운스",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "명중 시 30% 확률로 <strong>바운스</strong> 발동",
+            "바운스 대미지+60%"
+        ]
+    },
+    {
+        "image": "kumawink.jpg",
+        "ko": {
+            "category": "기관단총",
+            "subcategory": "MP5",
+            "name": "MP5 - 크릉! 곰이다!"
+        },
+        "en": {
+            "category": "SMG",
+            "subcategory": "MPS5",
+            "name": "MPS5 - Kumawink"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "216",
+                "fireRate": "750",
+                "magazine": "30",
+                "critRate": "8",
+                "weakDMG": "55",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기",
+            "단체"
+        ],
+        "specialType": "바운스",
+        "damageType": null,
+        "style": "이방인",
+        "description": [
+            "명중 시 25% 확률로 <strong>바운스</strong> 발동",
+            "약점 명중 시 해당 회차에 명중한 바운스 발동 계수+60%(무기 발동 확률에 기반)",
+            "발동 기본 대미지+50%",
+            "탄창 용량이 50%보다 낮을 시, 바운스 발동 횟수+1"
+        ]
+    },
+    {
+        "image": "little-jaws.jpg",
+        "ko": {
+            "category": "기관단총",
+            "subcategory": "버텍스",
+            "name": "데저트 이글 - 베이비 샤크"
+        },
+        "en": {
+            "category": "SMG",
+            "subcategory": "KV-SBR",
+            "name": "LITTLE JAWS"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "167",
+                "fireRate": "1000",
+                "magazine": "30",
+                "critRate": "10",
+                "weakDMG": "45",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스",
+            "단체"
+        ],
+        "specialType": "불안정한 다이너마이트",
+        "damageType": null,
+        "style": "메타 휴먼",
+        "description": [
+            "15회 명중 후 <strong>불안정 다이너마이트</strong> 발동",
+            "0.3초간 <strong>불안정 다이너마이트</strong> 연장",
+            "불안정 다이너마이트 상태인 적이 명중될 때마다 불안정 다이너마이트 최종 대미지+10%, 약점 명중 시 효과 두배",
+            "불안정 다이너마이트 초당 0.1초 연장, 불안정 다이너마이트 대미지 계수+20%"
+        ]
+    },
+    {
+        "image": "icy-rain.jpg",
+        "ko": {
+            "category": "기관단총",
+            "subcategory": "버텍스",
+            "name": "얼음 비"
+        },
+        "en": {
+            "category": "SMG",
+            "subcategory": "KV-SBR",
+            "name": "ICY RAIN"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "149",
+                "fireRate": "1000",
+                "magazine": "30",
+                "critRate": "10",
+                "weakDMG": "45",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스",
+            "단체"
+        ],
+        "specialType": "서리의 선풍",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "크리티컬 명중 시 40%확률로 <strong>프로스트 윈드</strong> 발동",
+            "<strong>프로스트 윈드</strong> 생성 후, 15% 총알 자동 장전",
+            "<strong>프로스트 윈드</strong> 수량+1"
+        ],
+        "map": "icy-rain"
+    },
+    {
+        "image": "pioneer.jpg",
+        "ko": {
+            "category": "소총",
+            "subcategory": "AKM",
+            "name": "AKM - 개척자"
+        },
+        "en": {
+            "category": "Rifle",
+            "subcategory": "KAM",
+            "name": "KAM - PIONEER"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "182",
+                "fireRate": "600",
+                "magazine": "40",
+                "critRate": "6",
+                "weakDMG": "55",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "유산탄",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "명중 시 30% 확률로 <strong>유산탄</strong> 발동",
+            "유산탄 대미지+60%"
+        ]
+    },
+    {
+        "image": "kam.jpg",
+        "ko": {
+            "category": "소총",
+            "subcategory": "AKM",
+            "name": "AKM"
+        },
+        "en": {
+            "category": "Rifle",
+            "subcategory": "KAM",
+            "name": "KAM"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "182",
+                "fireRate": "600",
+                "magazine": "40",
+                "critRate": "6",
+                "weakDMG": "55",
+                "critDMG": "30"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "방랑자",
+        "description": null
+    },
+    {
+        "image": "abyss-glance.jpg",
+        "ko": {
+            "category": "소총",
+            "subcategory": "AKM",
+            "name": "AKM - 심연의 응시"
+        },
+        "en": {
+            "category": "Rifle",
+            "subcategory": "KAM",
+            "name": "KAM - Abyss Glance"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "228",
+                "fireRate": "600",
+                "magazine": "50",
+                "critRate": "6",
+                "weakDMG": "55",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스",
+            "단체"
+        ],
+        "specialType": "서리의 선풍",
+        "damageType": null,
+        "style": "이방인",
+        "description": [
+            "20회 명중 후 <strong>프로스트 윈드</strong> 발동",
+            "약점 명중 시, 2회 명중으로 간주",
+            "<strong>프로스트 윈드</strong> 중심에 가까울수록 대미지 계수 상승, 최대+200%",
+            "프리징 원소 대미지+30%"
+        ]
+    },
+    {
+        "image": "crank.jpg",
+        "ko": {
+            "category": "소총",
+            "subcategory": "AKM",
+            "name": "AKM - 버닝 레이지"
+        },
+        "en": {
+            "category": "Rifle",
+            "subcategory": "KAM",
+            "name": "KAM - Crank"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "204",
+                "fireRate": "600",
+                "magazine": "40",
+                "critRate": "6",
+                "weakDMG": "55",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "플레임",
+        "damageType": null,
+        "style": "워리어",
+        "description": [
+            "명중 7회 시 <strong>플레임</strong> 발동",
+            "임의의 대미지로 <strong>플레임</strong> 상태의 적 처치 시 장전 속도+20%, 플레임 대미지+15%, 5초간 지속",
+            "플레임 최대 중첩 스택+1"
+        ],
+        "map": "crank"
+    },
+    {
+        "image": "the-last-valor.jpg",
+        "ko": {
+            "category": "소총",
+            "subcategory": "SCAR",
+            "name": "SCAR - 마지막 용기"
+        },
+        "en": {
+            "category": "Rifle",
+            "subcategory": "SOCR",
+            "name": "SOCR - THE LAST VALOR"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "264",
+                "fireRate": "515",
+                "magazine": "30",
+                "critRate": "6",
+                "weakDMG": "60",
+                "critDMG": "27"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "유산탄",
+        "damageType": null,
+        "style": "메타 휴먼",
+        "description": [
+            "4회 명중 시 <strong>유산탄</strong> 발동",
+            "크리티컬 시, 2회 명중으로 간주",
+            "크리티컬 후 유산탄 발동 횟수+1, 1초간 지속",
+            "유산탄 크리티컬 대미지+30%"
+        ]
+    },
+    {
+        "image": "outsider.jpg",
+        "ko": {
+            "category": "소총",
+            "subcategory": "SCAR",
+            "name": "SCAR - 아웃사이더"
+        },
+        "en": {
+            "category": "Rifle",
+            "subcategory": "SOCR",
+            "name": "SOCR - OUTSIDER"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "237",
+                "fireRate": "515",
+                "magazine": "30",
+                "critRate": "6",
+                "weakDMG": "60",
+                "critDMG": "27"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "파워 서지",
+        "damageType": null,
+        "style": "이방인",
+        "description": [
+            "명중 시 35% 확률로 <strong>파워 서지</strong> 발동",
+            "크리티컬 명중 후, <strong>파워 서지</strong> 발동 계수+30%(무기 발동 확률 기반), 3초간 지속",
+            "<strong>파워 서지</strong> 발동 계수+30%(무기 발동 확률 기반)"
+        ]
+    },
+    {
+        "image": "gulped-lore.jpg",
+        "ko": {
+            "category": "저격소총",
+            "subcategory": "M700",
+            "name": "M700 - 타이탄 테일"
+        },
+        "en": {
+            "category": "Sniper Rifle",
+            "subcategory": "SN700",
+            "name": "SN700 - GULPED LORE"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "1678",
+                "fireRate": "40",
+                "magazine": "5",
+                "critRate": "2",
+                "weakDMG": "90",
+                "critDMG": "24"
+            }
+        },
+        "keywords": [
+            "트랜스",
+            "단체"
+        ],
+        "specialType": "불안정한 다이너마이트",
+        "damageType": null,
+        "style": "이방인",
+        "description": [
+            "약점 명중 시 80% 확률로 <strong>불안정 다이너마이트</strong> 발동",
+            "적을 처치할 때마다 폭탄 범위-10%, 대미지 계수+20%, 30초간 지속, 최대 5스택 중첩",
+            "<strong>불안정 다이너마이트</strong> 반드시 크리티컬 발동, 약점 대미지 1%마다 불안정 다이너마이트 크리티컬 대미지+1%"
+        ]
+    },
+    {
+        "image": "sn700.jpg",
+        "ko": {
+            "category": "저격소총",
+            "subcategory": "M700",
+            "name": "M700"
+        },
+        "en": {
+            "category": "Sniper Rifle",
+            "subcategory": "SN700",
+            "name": "SN700"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "1490",
+                "fireRate": "40",
+                "magazine": "5",
+                "critRate": "2",
+                "weakDMG": "90",
+                "critDMG": "24"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "bullseye.jpg",
+        "ko": {
+            "category": "저격소총",
+            "subcategory": "AWM",
+            "name": "AKM - 명중"
+        },
+        "en": {
+            "category": "Sniper Rifle",
+            "subcategory": "AWS.338",
+            "name": "AWS.338 - BULLSEYE"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "1848",
+                "fireRate": "40",
+                "magazine": "5",
+                "critRate": "2",
+                "weakDMG": "95",
+                "critDMG": "26"
+            }
+        },
+        "keywords": [
+            "총기",
+            "보조"
+        ],
+        "specialType": "헌터 마크",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "약점 명중 시 70% 확률로 <strong>헌터 마크</strong> 발동",
+            "총기 교체 후 첫 명중 시 <strong>헌터 마크</strong> 발동",
+            "명중 후 약점 대미지 보너스+15%, 10초간 지속, 최대 3스택",
+            "약점 처치 후 대미지+15%, 20초간 지속"
+        ]
+    },
+    {
+        "image": "black-panther.jpg",
+        "ko": {
+            "category": "저격소총",
+            "subcategory": "AWM",
+            "name": "AWM - 블랙 팬서"
+        },
+        "en": {
+            "category": "Sniper Rifle",
+            "subcategory": "AWS.338",
+            "name": "AWS.338 - BLACK PANTHER"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "1663",
+                "fireRate": "40",
+                "magazine": "5",
+                "critRate": "2",
+                "weakDMG": "95",
+                "critDMG": "26"
+            }
+        },
+        "keywords": [
+            "총기",
+            "보조"
+        ],
+        "specialType": "리버스 워페어",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "3초 조준 후 <strong>리버스 워페어</strong> 발동, 쿨타임 10초",
+            "조준 시간이 길수록 대미지 상승, 최대 30%",
+            "워페어 발동 후 중형 무기 추가 효과 3스택 획득, 1스택당 약점 대미지+25%, 발사할 때마다 1% 스택 감소"
+        ],
+        "map": "black-panther"
+    },
+    {
+        "image": "brahminy.jpg",
+        "ko": {
+            "category": "저격소총",
+            "subcategory": "M82A1",
+            "name": "M82A1 - 루퍼스"
+        },
+        "en": {
+            "category": "Sniper Rifle",
+            "subcategory": "HAMR",
+            "name": "HAMR - BRAHMINY"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "1277",
+                "fireRate": "85",
+                "magazine": "8",
+                "critRate": "2",
+                "weakDMG": "80",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기",
+            "단체"
+        ],
+        "specialType": "바운스",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "약점 명중 시 80% 확률로 <strong>바운스</strong> 발동",
+            "바운스로 약점 명중 후 35% 확률로 지속 바운스",
+            "바운스로 적 처치 실패 시, 다음 1발의 총기 대미지+20%, 5스택 중첩 가능",
+            "바운스는 HP가 높은 적 우선 선택"
+        ]
+    },
+    {
+        "image": "crumble.jpg",
+        "ko": {
+            "category": "저격소총",
+            "subcategory": "M82A1",
+            "name": "M82A1 - 잿더미"
+        },
+        "en": {
+            "category": "Sniper Rifle",
+            "subcategory": "HAMR",
+            "name": "HAMR - CRUMBLE"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "1021",
+                "fireRate": "85",
+                "magazine": "8",
+                "critRate": "2",
+                "weakDMG": "80",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "플레임",
+        "damageType": null,
+        "style": "워리어",
+        "description": [
+            "약점 명중 시 60% 확률로 <strong>플레임</strong> 발동",
+            "플레임 대미지+10%"
+        ],
+        "map": "crumble"
+    },
+    {
+        "image": "wrath-of-hades.jpg",
+        "ko": {
+            "category": "경기관총",
+            "subcategory": "MG4",
+            "name": "MG4 - 분노"
+        },
+        "en": {
+            "category": "LMG",
+            "subcategory": "MG4",
+            "name": "MG4 - WRATH OF HADES"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "167",
+                "fireRate": "700",
+                "magazine": "75",
+                "critRate": "8",
+                "weakDMG": "35",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "패스트 거너",
+        "damageType": null,
+        "style": "워리어",
+        "description": [
+            "명중 시 40% 확률로 <strong>패스트 거너</strong> 발동",
+            "<strong>패스트 거너</strong> 발동 시, 보조 총기에 1개의 총알 장전",
+            "처치 후, 보조 총기에 1개의 총알 장전"
+        ],
+        "map": "wrath-of-hades"
+    },
+    {
+        "image": "mg4.jpg",
+        "ko": {
+            "category": "경기관총",
+            "subcategory": "MG4",
+            "name": "MG4"
+        },
+        "en": {
+            "category": "LMG",
+            "subcategory": "MG4",
+            "name": "MG4"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "146",
+                "fireRate": "700",
+                "magazine": "75",
+                "critRate": "8",
+                "weakDMG": "35",
+                "critDMG": "30"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": null
+    },
+    {
+        "image": "mr-squid.jpg",
+        "ko": {
+            "category": "경기관총",
+            "subcategory": "MG4",
+            "name": "MG4 - 문어 선생"
+        },
+        "en": {
+            "category": "LMG",
+            "subcategory": "MG4",
+            "name": "MG4 - Mr Squid"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "167",
+                "fireRate": "700",
+                "magazine": "75",
+                "critRate": "8",
+                "weakDMG": "35",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기",
+            "단체"
+        ],
+        "specialType": "바운스",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "크리티컬 시 90% 확률로 <strong>바운스</strong> 발동",
+            "바운스 명중 후 총기 대미지+2%, 최대 50스택 중첩, 5초마다 1스택 감소",
+            "지속 사격 2초 후, 바운스 타깃+1"
+        ],
+        "map": "mr-squid"
+    },
+    {
+        "image": "predator.jpg",
+        "ko": {
+            "category": "경기관총",
+            "subcategory": "MG4",
+            "name": "MG4 - 포식자"
+        },
+        "en": {
+            "category": "LMG",
+            "subcategory": "MG4",
+            "name": "MG4 - Predator"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "188",
+                "fireRate": "700",
+                "magazine": "75",
+                "critRate": "8",
+                "weakDMG": "35",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "총기"
+        ],
+        "specialType": "패스트 거너",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "명중 시 40% 확률로 <strong>패스트 거너</strong> 발동",
+            "패스트 거너 스택이 5의 배수에 도달할 때마다 0.5초간 총알 무제한",
+            "동일한 타깃 지속 공격 시 명중할 때마다 총기 대미지+2%(최대+40%), 타깃 변경 후 리셋",
+            "남은 총알이 탄창 용량의 50%보다 많을 시, 대미지+40%"
+        ]
+    },
+    {
+        "image": "icebreaker.jpg",
+        "ko": {
+            "category": "경기관총",
+            "subcategory": "RPD",
+            "name": "RPD - 얼음 송곳"
+        },
+        "en": {
+            "category": "LMG",
+            "subcategory": "KVD",
+            "name": "KVD - Icebreaker"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "204",
+                "fireRate": "500",
+                "magazine": "100",
+                "critRate": "10",
+                "weakDMG": "40",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스",
+            "단체"
+        ],
+        "specialType": "서리의 선풍",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "장전 후 첫 명중 시 <strong>서리의 선풍</strong> 발동",
+            "서리 대미지+30%"
+        ],
+        "map": "icebreaker"
+    },
+    {
+        "image": "boom-boom.jpg",
+        "ko": {
+            "category": "경기관총",
+            "subcategory": "RPD",
+            "name": "RPD - 곧 폭발이야!"
+        },
+        "en": {
+            "category": "LMG",
+            "subcategory": "KVD",
+            "name": "KVD - Boom! Boom!"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "255",
+                "fireRate": "500",
+                "magazine": "100",
+                "critRate": "10",
+                "weakDMG": "40",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "트랜스"
+        ],
+        "specialType": "플레임",
+        "damageType": null,
+        "style": "워리어",
+        "description": [
+            "명중 시 18% 확률로 <strong>플레임</strong> 발동",
+            "임의의 대미지로 <strong>플레임</strong> 상태의 적 처치 시 폭파 발동, 300% 초감각 범위의 블레이즈 대미지를 입힘",
+            "폭파 시 명중한 타깃에게 1스택의 플레임 발동",
+            "블레이즈 대미지+30%"
+        ]
+    },
+    {
+        "image": "recurve-crossbow.jpg",
+        "ko": {
+            "category": "석궁",
+            "subcategory": "쇠뇌",
+            "name": "리커브 석궁"
+        },
+        "en": {
+            "category": "Bows",
+            "subcategory": "Crossbow",
+            "name": "RECURVE CROSSBOW"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "1629",
+                "fireRate": "125",
+                "magazine": "1",
+                "critRate": "2",
+                "weakDMG": "70",
+                "critDMG": "28"
+            }
+        },
+        "keywords": null,
+        "specialType": "헌터 마크",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "약점 명중 시 타깃에게 <strong>헌터 마크</strong> 부여, 모든 무기의 <strong>헌터 마크</strong> 타깃에 대한 크리티컬 확률+15%, 10초간 지속, 15초 내 동일한 타깃에 최대 1회 적용"
+        ],
+        "map": "recurve-crossbow"
+    },
+    {
+        "image": "rustic-crossbow.jpg",
+        "ko": {
+            "category": "석궁",
+            "subcategory": "쇠뇌",
+            "name": "투박한 석궁"
+        },
+        "en": {
+            "category": "Bows",
+            "subcategory": "Crossbow",
+            "name": "RUSTIC CROSSBOW"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "1268",
+                "fireRate": "125",
+                "magazine": "1",
+                "critRate": "2",
+                "weakDMG": "70",
+                "critDMG": "28"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "헌터",
+        "description": null
+    },
+    {
+        "image": "compound-bow.jpg",
+        "ko": {
+            "category": "석궁",
+            "subcategory": "쇠뇌",
+            "name": "컴파운드 석궁"
+        },
+        "en": {
+            "category": "Bows",
+            "subcategory": "Crossbow",
+            "name": "Compound Bow"
+        },
+        "grade": "4",
+        "craft": {
+            "5": {
+                "damage": "1812",
+                "fireRate": "125",
+                "magazine": "1",
+                "critRate": "2",
+                "weakDMG": "70",
+                "critDMG": "28"
+            }
+        },
+        "keywords": null,
+        "specialType": "불안정한 다이너마이트",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "타깃 명중 시 강화 획득, 크리티컬 확률+10%, 장전 속도+6, 최대 3스택 중첩, 6초간 지속, 타깃 처치 시 즉시 최대 스택 달성.",
+            "최대 스택 상태에서 타깃 명중 시 강화형 <strong>불안정 다이너마이트</strong> 발동(크리티컬 가능, 명중된 타깃 밸런스 상실)",
+            "사격 1회당 불안정 다이너마이트 대미지 계수+3%, 6스택 중첩 가능, 명중하지 못했을 경우 스택 절반으로 감소",
+            "약점 명중 후 40% 확률로 석궁 화살 1발 자동 장전"
+        ]
+    },
+    {
+        "image": "recurve-bow.jpg",
+        "ko": {
+            "category": "석궁",
+            "subcategory": "활",
+            "name": "반곡궁"
+        },
+        "en": {
+            "category": "Bows",
+            "subcategory": "BOW",
+            "name": "RECURVE BOW"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "1107",
+                "fireRate": "65",
+                "magazine": "1",
+                "critRate": "2",
+                "weakDMG": "80",
+                "critDMG": "30"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "앉은 자세로 가만히 있을 시 1초마다 강화 효과 1스택 획득, 대미지+10%, 약점 대미지+15%, 최대 3스택 중첩 가능",
+            "일어서기, 이동, 타깃 명중 시 해당 효과 취소"
+        ],
+        "map": "recurve-bow"
+    },
+    {
+        "image": "mgl.jpg",
+        "ko": {
+            "category": "대형 화기",
+            "subcategory": null,
+            "name": "유탄 발사기"
+        },
+        "en": {
+            "category": "Heavy Weapon",
+            "subcategory": null,
+            "name": "MGL"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "1620",
+                "fireRate": "140",
+                "magazine": "6",
+                "critRate": "4",
+                "weakDMG": "35",
+                "critDMG": "30"
+            }
+        },
+        "keywords": [
+            "파괴"
+        ],
+        "specialType": "리버스 워페어",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "단일 탄창이 타깃에 6회 명중 시 '활력'효과 획득. 다음 장전 완료 후 <strong>리버스 워페어</strong> 1회 활성화 가능",
+            "리버스 워페어에 있을 시 1초마다 유탄 1개 자동 장전",
+            "건물 파괴력이 큼"
+        ]
+    },
+    {
+        "image": "rpg7-rocker-launcher.jpg",
+        "ko": {
+            "category": "대형 화기",
+            "subcategory": null,
+            "name": "RPG7 로켓 발사기"
+        },
+        "en": {
+            "category": "Heavy Weapon",
+            "subcategory": null,
+            "name": "RPG7 Rocket Launcher"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "1739",
+                "fireRate": "140",
+                "magazine": "1",
+                "critRate": "3",
+                "weakDMG": "25",
+                "critDMG": "25"
+            }
+        },
+        "keywords": [
+            "파괴"
+        ],
+        "specialType": null,
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "강력한 건축물 파괴력"
+        ]
+    },
+    {
+        "image": "camping-knife.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "도검",
+            "name": "캠핑 나이프"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Sword",
+            "name": "CAMPING KNIFE"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "945",
+                "fireRate": "중",
+                "magazine": "중",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": null,
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "공격 명중 시, 33%확률로 50% 공격력의 근접 대미지 추가 1회 부여"
+        ]
+    },
+    {
+        "image": "stun-baton.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "곤봉",
+            "name": "전기 충격기"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Club",
+            "name": "STUN BATON"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "1064",
+                "fireRate": "중",
+                "magazine": "중",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": "파워 서지",
+        "damageType": null,
+        "style": "오퍼레이터",
+        "description": [
+            "약타, 충돌 명중 시 80% 확률로 <strong>파워 서지</strong> 부여",
+            "강타로 파워 서지 트랜스 상태의 적 명중 시, 근처 다른 타깃에게 다시 1회의 100% 초감각 강도의 플라스마 원소 트랜스 대미지 부여"
+        ],
+        "map": "stun-baton"
+    },
+    {
+        "image": "frozen-northern-pike.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "곤봉",
+            "name": "화이트 파이크(희귀)"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Club",
+            "name": "FROZEN NORTHERN PIKE"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "1122",
+                "fireRate": "중",
+                "magazine": "중",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": "서리의 선풍",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "충돌, 강타 명중 시 첫 타깃을 동결시키고 <strong>프로스트 윈드</strong> 생성, 4초 마다 1회 적용",
+            "공격은 <strong>프로스트 윈드</strong>의 영향을 받아 대상의 이미 잃은 HP를 5% 회복하지만 추가로 2 스태미나 소모"
+        ]
+    },
+    {
+        "image": "northern-pike.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "곤봉",
+            "name": "화이트 파이크(상급)"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Club",
+            "name": "NORTHERN PIKE"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "997",
+                "fireRate": "중",
+                "magazine": "중",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": "타박상",
+        "damageType": null,
+        "style": "헌터",
+        "description": [
+            "이건 이성 수치를 너무 떨어뜨리네요.",
+            "명중 시 5 멘탈 수치 소모하여 <strong>타박상</strong> 부여, 초감각 강도+5%",
+            "효과 3초간 지속, 최대 5스택 중첩"
+        ]
+    },
+    {
+        "image": "baseball-bat.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "곤봉",
+            "name": "야구 배트"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Club",
+            "name": "BASEBALL BAT"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "945",
+                "fireRate": "중",
+                "magazine": "중",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": "타박상",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "헤비 어택으로 첫 명중 시 <strong>타박상</strong>을 입히고, 대상에게-30% 대미지 부여, 15초간 지속, 보스와 다른 메타에게는 적용되지 않음"
+        ]
+    },
+    {
+        "image": "torch.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "곤봉",
+            "name": "횃불"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Club",
+            "name": "TORCH"
+        },
+        "grade": "1",
+        "craft": {
+            "5": {
+                "damage": "830",
+                "fireRate": "중",
+                "magazine": "중",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": "플레임",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "명중 시 <strong>플레임</strong> 부여, 효과 중첩 불가"
+        ]
+    },
+    {
+        "image": "wrench.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "대형 무기",
+            "name": "렌치"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Heavy Weapon",
+            "name": "WRENCH"
+        },
+        "grade": "2",
+        "craft": {
+            "5": {
+                "damage": "953",
+                "fireRate": "중",
+                "magazine": "중",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": "타박상",
+        "damageType": null,
+        "style": "방랑자",
+        "description": [
+            "강타 명중 시 <strong>타박상</strong> 부여",
+            "잔여 스태미나에 따라 타박상 기본 배율 최대+25%"
+        ],
+        "map": "wrench"
+    },
+    {
+        "image": "long-axe.jpg",
+        "ko": {
+            "category": "근접",
+            "subcategory": "대형 무기",
+            "name": "도끼"
+        },
+        "en": {
+            "category": "Melee",
+            "subcategory": "Heavy Weapon",
+            "name": "Long Axe"
+        },
+        "grade": "3",
+        "craft": {
+            "5": {
+                "damage": "1262",
+                "fireRate": "느림",
+                "magazine": "원거리",
+                "critRate": "5",
+                "weakDMG": "20",
+                "critDMG": "25"
+            }
+        },
+        "keywords": null,
+        "specialType": "리버스 워페어",
+        "damageType": null,
+        "style": "워리어",
+        "description": [
+            "강타 시 <strong>리버스 워페어</strong> 활성화, 10초마다 최대 1회 활성화",
+            "강타로 타깃을 명중할 때마다 1명당 모든 무기 크리티컬 확률+8%, 근접 공격 속도+5%, 10초간 지속, 최대 3스택 중첩"
+        ],
+        "map": "long-axe"
+    }
+]

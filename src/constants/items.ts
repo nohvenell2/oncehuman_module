@@ -10,12 +10,15 @@ export const EQUIPMENT_SLOTS = {
 } as const;
 
 export const MODULE_OPTIONS = {
-    criticalDamage: '크리티컬 데미지',
-    bossDamage: '상위자 데미지',
-    eliteDamage: '엘리트 데미지',
-    normalDamage: '일반 몬스터 데미지',
-    weaponDamage: '총기 데미지',
-    weakPointDamage: '약점 데미지'
+    criticalDamage: '치명타 피해',
+    bossDamage: '보스 피해',
+    eliteDamage: '정예 피해',
+    normalDamage: '일반 피해',
+    weaponDamage: '무기 피해',
+    weakPointDamage: '약점 피해',
+    elementalDamage: '원소 피해',
+    extraMagazine: '추가 탄창',
+    transDamage: '트랜스 피해'
 } as const;
 
 export const GRADES = {
@@ -24,4 +27,70 @@ export const GRADES = {
     blue: '파랑',
     purple: '보라',
     yellow: '노랑'
+} as const;
+
+export const MODULE_VALUES = {
+    weakPointDamage: {
+        grey: 1.8,
+        green: 3.6,
+        blue: 5.4,
+        purple: 7.2,
+        yellow: 9.0
+    },
+    bossDamage: {
+        grey: 1.2,
+        green: 2.4,
+        blue: 3.6,
+        purple: 4.8,
+        yellow: 6.0
+    },
+    weaponDamage: {
+        grey: 1.2,
+        green: 2.4,
+        blue: 3.6,
+        purple: 4.8,
+        yellow: 6.0
+    },
+    extraMagazine: {
+        grey: 2.4,
+        green: 4.8,
+        blue: 7.2,
+        purple: 9.6,
+        yellow: 12.0
+    },
+    eliteDamage: {
+        grey: 1.5,
+        green: 3.0,
+        blue: 4.5,
+        purple: 6.0,
+        yellow: 7.5
+    },
+    criticalDamage: {
+        grey: 3.0,
+        green: 6.0,
+        blue: 9.0,
+        purple: 12.0,
+        yellow: 15.0
+    },
+    elementalDamage: {
+        grey: 1.6,
+        green: 3.2,
+        blue: 4.8,
+        purple: 6.4,
+        yellow: 8.0
+    },
+    normalDamage: {
+        grey: 2.0,
+        green: 4.0,
+        blue: 6.0,
+        purple: 8.0,
+        yellow: 10.0
+    },
+    transDamage: {
+        grey: 1.2,
+        green: 2.4,
+        blue: 3.6,
+        purple: 4.8,
+        yellow: 6.0
+    }
 } as const; 
