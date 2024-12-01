@@ -34,12 +34,12 @@ export default function ItemSlot({ label, item, onChange }: ItemSlotProps) {
     }, [label]);
 
     // 검색어에 따른 필터링
-    const filteredItems = useMemo(() => {
+    const getFilteredItems = () => {
         const searchLower = searchTerm.toLowerCase();
         return itemList.filter(item => 
             item.ko.name.toLowerCase().includes(searchLower)
         );
-    }, [itemList, searchTerm]);
+    };
 
     const handleItemSelect = (selectedItem: WeaponInfo | ArmorInfo) => {
         handleChange('name', selectedItem.ko.name);
@@ -55,9 +55,9 @@ export default function ItemSlot({ label, item, onChange }: ItemSlotProps) {
     };
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === 'Enter' && filteredItems.length > 0) {
+        if (e.key === 'Enter' && getFilteredItems().length > 0) {
             e.preventDefault();
-            handleItemSelect(filteredItems[0]);
+            handleItemSelect(getFilteredItems()[0]);
             setIsComboboxOpen(false);
         } else if (e.key === 'Escape') {
             setIsComboboxOpen(false);
@@ -91,9 +91,9 @@ export default function ItemSlot({ label, item, onChange }: ItemSlotProps) {
                             placeholder="아이템 이름 검색..."
                             className={styles.comboboxInput}
                         />
-                        {isComboboxOpen && filteredItems.length > 0 && (
+                        {isComboboxOpen && getFilteredItems().length > 0 && (
                             <ul className={styles.optionsList}>
-                                {filteredItems.map((item) => (
+                                {getFilteredItems().map((item) => (
                                     <li
                                         key={item.ko.name}
                                         onClick={() => handleItemSelect(item)}
